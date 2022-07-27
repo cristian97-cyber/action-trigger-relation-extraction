@@ -51,7 +51,6 @@ def main():
 
     recipes_rel = pd.DataFrame(relations, columns=["rel", "desc"])
     recipes_rel.to_csv(args.output_dataset, index=False)
-    print("ok")
 
 
 if __name__ == "__main__":

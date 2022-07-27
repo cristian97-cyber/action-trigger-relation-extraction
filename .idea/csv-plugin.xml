@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\results\SemEval2010_task8\BERT\bert-base-uncased\recipes_rel_0-1000.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
