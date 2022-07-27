@@ -1,0 +1,13 @@
+torch
+spacy
+pandas
+seqeval
+matplotlib
+boto3
+filelock
+six
+botocore
+requests
+tqdm
+apex
+numpy
