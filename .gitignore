@@ -1,7 +1,5 @@
 /venv
 
-/data/recipes/recipes_all.csv
-
 /data/SemEval2010_task8_all_data
 
 /data/BERT_tokenizer.pkl
