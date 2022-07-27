@@ -1,7 +1,5 @@
 /venv
 
-/data/SemEval2010_task8_all_data
-
 /data/BERT_tokenizer.pkl
 /data/df_test.pkl
 /data/df_train.pkl
