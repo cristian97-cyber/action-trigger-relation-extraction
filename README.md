@@ -27,4 +27,5 @@ To do this, you must first generate a file containing some phrases in the form: 
 Once generated the file as described previously, you can infer cause-effect relations running the script *infer_relations.py*.
 
     infer_relations.py [-h]
-    [--dataset THE FILE GENERATED IN THE PREVIOUS STEP]
+    [--input_dataset THE FILE GENERATED IN THE PREVIOUS STEP]
+    [--output_dataset THE FILE WHERE THE INFERRED RELATIONS WILL BE SAVED]

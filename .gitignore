@@ -1,11 +1,2 @@
 /venv
-
-/data/BERT_tokenizer.pkl
-/data/df_test.pkl
-/data/df_train.pkl
-/data/relations.pkl
-/data/task_test_checkpoint_0.pth.tar
-/data/task_test_f1_per_epoch_0.pkl
-/data/task_test_losses_per_epoch_0.pkl
-/data/task_test_model_best_0.pth.tar
-/data/task_train_accuracy_per_epoch_0.pkl
+/data

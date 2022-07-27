@@ -30,13 +30,14 @@ def main():
                                                                                     "biobert_v1.1_pubmed)")
     parser.add_argument("--train", type=int, default=1, help="0: Don't train, 1: train")
     parser.add_argument("--infer", type=int, default=1, help="0: Don't infer, 1: Infer")
-    parser.add_argument("--dataset", type=str, help="Dataset from which infer relations")
+    parser.add_argument("--input_dataset", type=str, help="Input dataset from which infer relations")
+    parser.add_argument("--output_dataset", type=str, help="Output dataset containing the inferred relations")
 
     args = parser.parse_args()
 
     inferer = infer_from_trained(args, detect_entities=False)
 
-    recipes = pd.read_csv(args.dataset)
+    recipes = pd.read_csv(args.input_dataset)
     relations = list()
 
     for i in range(len(recipes["desc"])):
@@ -49,7 +50,7 @@ def main():
             relations.append(["Other", test])
 
     recipes_rel = pd.DataFrame(relations, columns=["rel", "desc"])
-    recipes_rel.to_csv(args.dataset, index=False)
+    recipes_rel.to_csv(args.output_dataset, index=False)
     print("ok")
 
 
