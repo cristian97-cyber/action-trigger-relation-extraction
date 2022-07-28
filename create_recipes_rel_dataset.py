@@ -49,7 +49,7 @@ def main():
                 relation = f"{formatted_action} and {formatted_trigger}."
 
                 if "[E1]" not in relation or "[E2]" not in relation:
-                    break
+                    continue
 
                 already_added = False
                 for found_rel in relations:
