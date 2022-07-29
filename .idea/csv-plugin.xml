@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\data\recipes\labelled\recipes_rel_0-10000.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\recipes\recipes_rel_0-1000.csv">
           <value>
             <Attribute>
@@ -10,14 +17,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\data\recipes\recipes_rel_0-2000.csv">
+        <entry key="\data\recipes\recipes_rel_0-10000.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\data\recipes\recipes_rel_0-5000.csv">
+        <entry key="\data\recipes\recipes_rel_10000-20000.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
