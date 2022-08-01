@@ -6,11 +6,8 @@ Created on Thu Nov 28 09:37:26 2019
 @author: weetee
 """
 import os
-import math
 import torch
-import torch.nn as nn
 from ..misc import save_as_pickle, load_pickle
-from seqeval.metrics import precision_score, recall_score, f1_score
 import logging
 from tqdm import tqdm
 
@@ -47,15 +44,21 @@ def load_results(model_no=0):
     """ Loads saved results if exists """
     losses_path = "./data/task_test_losses_per_epoch_%d.pkl" % model_no
     accuracy_path = "./data/task_train_accuracy_per_epoch_%d.pkl" % model_no
+    test_accuracy_path = "./data/task_test_accuracy_per_epoch_%d.pkl" % model_no
+    precision_path = "./data/task_test_precision_per_epoch_%d.pkl" % model_no
+    recall_path = "./data/task_test_recall_per_epoch_%d.pkl" % model_no
     f1_path = "./data/task_test_f1_per_epoch_%d.pkl" % model_no
     if os.path.isfile(losses_path) and os.path.isfile(accuracy_path) and os.path.isfile(f1_path):
         losses_per_epoch = load_pickle("task_test_losses_per_epoch_%d.pkl" % model_no)
         accuracy_per_epoch = load_pickle("task_train_accuracy_per_epoch_%d.pkl" % model_no)
+        test_accuracy_per_epoch = load_pickle("task_test_accuracy_per_epoch_%d.pkl" % model_no)
+        precision_per_epoch = load_pickle("task_test_precision_per_epoch_%d.pkl" % model_no)
+        recall_per_epoch = load_pickle("task_test_recall_per_epoch_%d.pkl" % model_no)
         f1_per_epoch = load_pickle("task_test_f1_per_epoch_%d.pkl" % model_no)
         logger.info("Loaded results buffer")
     else:
-        losses_per_epoch, accuracy_per_epoch, f1_per_epoch = [], [], []
-    return losses_per_epoch, accuracy_per_epoch, f1_per_epoch
+        losses_per_epoch, accuracy_per_epoch, test_accuracy_per_epoch, precision_per_epoch, recall_per_epoch, f1_per_epoch = [], [], [], [], [], []
+    return losses_per_epoch, accuracy_per_epoch, test_accuracy_per_epoch, precision_per_epoch, recall_per_epoch, f1_per_epoch
 
 
 def evaluate_(output, labels, ignore_idx):
@@ -97,12 +100,36 @@ def evaluate_results(net, test_loader, pad_id, cuda):
             acc += accuracy
     
     accuracy = acc/(i + 1)
+
+    true_positive = false_positive = true_negative = false_negative = 0
+    for i in range(len(out_labels)):
+        predicted_set = out_labels[i]
+        true_set = true_labels[i]
+
+        for j in range(len(predicted_set)):
+            predicted = predicted_set[j]
+            true = true_set[j]
+
+            if predicted == "1" and true == "1":
+                true_positive += 1
+            elif predicted == "1" and true == "0":
+                false_positive += 1
+            elif predicted == "0" and true == "0":
+                true_negative += 1
+            elif predicted == "0" and true == "1":
+                false_negative += 1
+
+    precision = true_positive / (true_positive + false_positive) if true_positive + false_positive > 0 else 0
+    recall = true_positive / (true_positive + false_negative) if true_positive + false_negative > 0 else 0
+    f1_score = (2 * precision * recall) / (precision + recall) if precision + recall > 0 else 0
+
     results = {
         "accuracy": accuracy,
-        "precision": precision_score(true_labels, out_labels),
-        "recall": recall_score(true_labels, out_labels),
-        "f1": f1_score(true_labels, out_labels)
+        "precision": precision,
+        "recall": recall,
+        "f1": f1_score
     }
+
     logger.info("***** Eval results *****")
     for key in sorted(results.keys()):
         logger.info("  %s = %s", key, str(results[key]))

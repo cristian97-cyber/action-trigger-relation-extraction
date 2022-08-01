@@ -119,7 +119,7 @@ def train_and_fit(args):
         scheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[2,4,6,8,12,15,18,20,22,\
                                                                           24,26,30], gamma=0.8)
     
-    losses_per_epoch, accuracy_per_epoch, test_f1_per_epoch = load_results(args.model_no)
+    losses_per_epoch, accuracy_per_epoch, test_accuracy_per_epoch, test_precision_per_epoch, test_recall_per_epoch, test_f1_per_epoch = load_results(args.model_no)
     
     logger.info("Starting training process...")
     pad_id = tokenizer.pad_token_id
@@ -177,10 +177,16 @@ def train_and_fit(args):
         results = evaluate_results(net, test_loader, pad_id, cuda)
         losses_per_epoch.append(sum(losses_per_batch)/len(losses_per_batch))
         accuracy_per_epoch.append(sum(accuracy_per_batch)/len(accuracy_per_batch))
+        test_accuracy_per_epoch.append(results['accuracy'])
+        test_precision_per_epoch.append(results['precision'])
+        test_recall_per_epoch.append(results['recall'])
         test_f1_per_epoch.append(results['f1'])
         print("Epoch finished, took %.2f seconds." % (time.time() - start_time))
         print("Losses at Epoch %d: %.7f" % (epoch + 1, losses_per_epoch[-1]))
         print("Train accuracy at Epoch %d: %.7f" % (epoch + 1, accuracy_per_epoch[-1]))
+        print("Test accuracy at Epoch %d: %.7f" % (epoch + 1, test_accuracy_per_epoch[-1]))
+        print("Test precision at Epoch %d: %.7f" % (epoch + 1, test_precision_per_epoch[-1]))
+        print("Test recall at Epoch %d: %.7f" % (epoch + 1, test_recall_per_epoch[-1]))
         print("Test f1 at Epoch %d: %.7f" % (epoch + 1, test_f1_per_epoch[-1]))
         
         if accuracy_per_epoch[-1] > best_pred:
@@ -193,19 +199,34 @@ def train_and_fit(args):
                     'scheduler' : scheduler.state_dict(),\
                     'amp': amp.state_dict() if amp is not None else amp
                 }, os.path.join("./data/" , "task_test_model_best_%d.pth.tar" % args.model_no))
+
+        save_as_pickle("task_test_losses_per_epoch_%d.pkl" % args.model_no, losses_per_epoch)
+        save_as_pickle("task_train_accuracy_per_epoch_%d.pkl" % args.model_no, accuracy_per_epoch)
+        save_as_pickle("task_test_accuracy_per_epoch_%d.pkl" % args.model_no, test_accuracy_per_epoch)
+        save_as_pickle("task_test_precision_per_epoch_%d.pkl" % args.model_no, test_precision_per_epoch)
+        save_as_pickle("task_test_recall_per_epoch_%d.pkl" % args.model_no, test_recall_per_epoch)
+        save_as_pickle("task_test_f1_per_epoch_%d.pkl" % args.model_no, test_f1_per_epoch)
+        torch.save({
+            'epoch': epoch + 1, \
+            'state_dict': net.state_dict(), \
+            'best_acc': accuracy_per_epoch[-1], \
+            'optimizer': optimizer.state_dict(), \
+            'scheduler': scheduler.state_dict(), \
+            'amp': amp.state_dict() if amp is not None else amp
+        }, os.path.join("./data/", "task_test_checkpoint_%d.pth.tar" % args.model_no))
         
-        if (epoch % 1) == 0:
-            save_as_pickle("task_test_losses_per_epoch_%d.pkl" % args.model_no, losses_per_epoch)
-            save_as_pickle("task_train_accuracy_per_epoch_%d.pkl" % args.model_no, accuracy_per_epoch)
-            save_as_pickle("task_test_f1_per_epoch_%d.pkl" % args.model_no, test_f1_per_epoch)
-            torch.save({
-                    'epoch': epoch + 1,\
-                    'state_dict': net.state_dict(),\
-                    'best_acc': accuracy_per_epoch[-1],\
-                    'optimizer' : optimizer.state_dict(),\
-                    'scheduler' : scheduler.state_dict(),\
-                    'amp': amp.state_dict() if amp is not None else amp
-                }, os.path.join("./data/" , "task_test_checkpoint_%d.pth.tar" % args.model_no))
+        # if (epoch % 1) == 0:
+        #     save_as_pickle("task_test_losses_per_epoch_%d.pkl" % args.model_no, losses_per_epoch)
+        #     save_as_pickle("task_train_accuracy_per_epoch_%d.pkl" % args.model_no, accuracy_per_epoch)
+        #     save_as_pickle("task_test_f1_per_epoch_%d.pkl" % args.model_no, test_f1_per_epoch)
+        #     torch.save({
+        #             'epoch': epoch + 1,\
+        #             'state_dict': net.state_dict(),\
+        #             'best_acc': accuracy_per_epoch[-1],\
+        #             'optimizer' : optimizer.state_dict(),\
+        #             'scheduler' : scheduler.state_dict(),\
+        #             'amp': amp.state_dict() if amp is not None else amp
+        #         }, os.path.join("./data/" , "task_test_checkpoint_%d.pth.tar" % args.model_no))
     
     logger.info("Finished Training!")
     fig = plt.figure(figsize=(20,20))
@@ -224,15 +245,42 @@ def train_and_fit(args):
     ax2.set_xlabel("Epoch", fontsize=22)
     ax2.set_ylabel("Training Accuracy", fontsize=22)
     ax2.set_title("Training Accuracy vs Epoch", fontsize=32)
-    plt.savefig(os.path.join("./data/" ,"task_train_accuracy_vs_epoch_%d.png" % args.model_no))
-    
-    fig3 = plt.figure(figsize=(20,20))
+    plt.savefig(os.path.join("./data/", "task_train_accuracy_vs_epoch_%d.png" % args.model_no))
+
+    fig3 = plt.figure(figsize=(20, 20))
     ax3 = fig3.add_subplot(111)
-    ax3.scatter([e for e in range(len(test_f1_per_epoch))], test_f1_per_epoch)
+    ax3.scatter([e for e in range(len(test_accuracy_per_epoch))], test_accuracy_per_epoch)
     ax3.tick_params(axis="both", length=2, width=1, labelsize=14)
     ax3.set_xlabel("Epoch", fontsize=22)
-    ax3.set_ylabel("Test F1 Accuracy", fontsize=22)
-    ax3.set_title("Test F1 vs Epoch", fontsize=32)
-    plt.savefig(os.path.join("./data/" ,"task_test_f1_vs_epoch_%d.png" % args.model_no))
+    ax3.set_ylabel("Test Accuracy", fontsize=22)
+    ax3.set_title("Test Accuracy vs Epoch", fontsize=32)
+    plt.savefig(os.path.join("./data/", "task_test_accuracy_vs_epoch_%d.png" % args.model_no))
+
+    fig4 = plt.figure(figsize=(20, 20))
+    ax4 = fig4.add_subplot(111)
+    ax4.scatter([e for e in range(len(test_precision_per_epoch))], test_precision_per_epoch)
+    ax4.tick_params(axis="both", length=2, width=1, labelsize=14)
+    ax4.set_xlabel("Epoch", fontsize=22)
+    ax4.set_ylabel("Test Precision", fontsize=22)
+    ax4.set_title("Test Precision vs Epoch", fontsize=32)
+    plt.savefig(os.path.join("./data/", "task_test_precision_vs_epoch_%d.png" % args.model_no))
+
+    fig5 = plt.figure(figsize=(20, 20))
+    ax5 = fig5.add_subplot(111)
+    ax5.scatter([e for e in range(len(test_recall_per_epoch))], test_recall_per_epoch)
+    ax5.tick_params(axis="both", length=2, width=1, labelsize=14)
+    ax5.set_xlabel("Epoch", fontsize=22)
+    ax5.set_ylabel("Test Recall", fontsize=22)
+    ax5.set_title("Test Recall vs Epoch", fontsize=32)
+    plt.savefig(os.path.join("./data/", "task_test_recall_vs_epoch_%d.png" % args.model_no))
+    
+    fig6 = plt.figure(figsize=(20,20))
+    ax6 = fig6.add_subplot(111)
+    ax6.scatter([e for e in range(len(test_f1_per_epoch))], test_f1_per_epoch)
+    ax6.tick_params(axis="both", length=2, width=1, labelsize=14)
+    ax6.set_xlabel("Epoch", fontsize=22)
+    ax6.set_ylabel("Test F1 Accuracy", fontsize=22)
+    ax6.set_title("Test F1 vs Epoch", fontsize=32)
+    plt.savefig(os.path.join("./data/", "task_test_f1_vs_epoch_%d.png" % args.model_no))
     
     return net

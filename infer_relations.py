@@ -14,7 +14,6 @@ def main():
                         help="test data .txt file path")
     parser.add_argument("--use_pretrained_blanks", type=int, default=0, help="0: Don't use pre-trained blanks model, "
                                                                              "1: use pre-trained blanks model")
-    parser.add_argument("--num_classes", type=int, default=19, help="number of relation classes")
     parser.add_argument("--batch_size", type=int, default=32, help="Training batch size")
     parser.add_argument("--gradient_acc_steps", type=int, default=2, help="No. of steps of gradient accumulation")
     parser.add_argument("--max_norm", type=float, default=1.0, help="Clipped gradient norm")
@@ -34,6 +33,7 @@ def main():
     parser.add_argument("--output_dataset", type=str, help="Output dataset containing the inferred relations")
 
     args = parser.parse_args()
+    args.num_classes = 2
 
     inferer = infer_from_trained(args, detect_entities=False)
 

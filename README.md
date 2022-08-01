@@ -6,9 +6,45 @@ It utilizes a BERT model, as implemented by the following repository: https://gi
 
 ## Getting started
 
-### Training and Fine-tuning
+### Training
 
-As described in the *BERT-Relation-Extraction* repository, you can train and fine-tune the model using the scripts: *main_pretraining.py* (for the training) and *main_task.py* (for the fine-tuning). Check that repository for the details.
+You can train the BERT model running the script *main_pretraining.py*. As described in the *BERT-Relation-Extraction* repository, pre-training data can be any .txt continuous file.
+
+    main_pretraining.py [-h]
+        [--pretrain_data TRAIN_PATH]
+        [--batch_size BATCH_SIZE]
+        [--freeze FREEZE]
+        [--gradient_acc_steps GRADIENT_ACC_STEPS]
+        [--max_norm MAX_NORM]
+	    [--fp16 FP_16]  
+	    [--num_epochs NUM_EPOCHS]
+	    [--lr LR]
+	    [--model_no MODEL_NO (0: BERT ; 1: ALBERT ; 2: BioBERT)]
+        [--model_size MODEL_SIZE (BERT: 'bert-base-uncased', 'bert-large-uncased';   
+				ALBERT: 'albert-base-v2', 'albert-large-v2';   
+				BioBERT: 'bert-base-uncased' (biobert_v1.1_pubmed))]
+
+### Fine-tuning
+
+For fine-tune the model on data, you can run the script *main_task.py*.
+
+    main_task.py [-h] 
+	[--train_data TRAIN_DATA]
+	[--test_data TEST_DATA]
+    [--train_data_size TRAIN_DATA_SIZE]
+	[--use_pretrained_blanks USE_PRETRAINED_BLANKS]
+	[--batch_size BATCH_SIZE]
+	[--gradient_acc_steps GRADIENT_ACC_STEPS]
+	[--max_norm MAX_NORM]
+	[--fp16 FP_16]  
+	[--num_epochs NUM_EPOCHS]
+	[--lr LR]
+	[--model_no MODEL_NO (0: BERT ; 1: ALBERT ; 2: BioBERT)]  
+	[--model_size MODEL_SIZE (BERT: 'bert-base-uncased', 'bert-large-uncased';   
+				ALBERT: 'albert-base-v2', 'albert-large-v2';   
+				BioBERT: 'bert-base-uncased' (biobert_v1.1_pubmed))]    
+	[--train TRAIN]
+	[--infer INFER]
 
 ### Generating the input dataset
 
@@ -29,3 +65,13 @@ Once generated the file as described previously, you can infer cause-effect rela
     infer_relations.py [-h]
     [--input_dataset THE FILE GENERATED IN THE PREVIOUS STEP]
     [--output_dataset THE FILE WHERE THE INFERRED RELATIONS WILL BE SAVED]
+
+### Fine-tuning directly on trigger-action rules
+
+You can fine-tune the model directly on trigger-action rules, to do this, you must generate a training and a test file from labelled datasets. To do this, run the script *create_train_test_files.py*.
+
+    create_train_test_files.py [-h]
+        [--train_input_file INPUT DATASET CONTAINING TRAINING LABELLED DATA, CSV FORMAT]
+        [--test_input_file INPUT DATASET CONTAINING TEST LABELLED DATA, CSV FORMAT]
+        [--train_output_file OUTPUT FILE CONTAINING TRAINING DATA]
+        [--train_output_file OUTPUT FILE CONTAINING TEST DATA]

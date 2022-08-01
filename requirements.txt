@@ -1,7 +1,6 @@
 torch
 spacy
 pandas
-seqeval
 matplotlib
 boto3
 filelock
@@ -11,3 +10,4 @@ requests
 tqdm
 apex
 numpy
+sentencepiece

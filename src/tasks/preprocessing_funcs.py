@@ -23,7 +23,7 @@ logging.basicConfig(format='%(asctime)s [%(levelname)s]: %(message)s', \
                     datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.INFO)
 logger = logging.getLogger('__file__')
 
-def process_text(text, mode='train'):
+def process_text(text, mode='train', data_size=None):
     sents, relations, comments, blanks = [], [], [], []
     for i in range(int(len(text)/4)):
         sent = text[4*i]
@@ -35,7 +35,7 @@ def process_text(text, mode='train'):
         if mode == 'train':
             assert int(re.match("^\d+", sent)[0]) == (i + 1)
         else:
-            assert (int(re.match("^\d+", sent)[0]) - 8000) == (i + 1)
+            assert (int(re.match("^\d+", sent)[0]) - data_size) == (i + 1)
         assert re.match("^Comment", comment)
         assert len(blank) == 1
         
@@ -64,7 +64,7 @@ def preprocess_semeval2010_8(args):
     with open(data_path, 'r', encoding='utf8') as f:
         text = f.readlines()
     
-    sents, relations, comments, blanks = process_text(text, 'test')
+    sents, relations, comments, blanks = process_text(text, 'test', args.train_data_size)
     df_test = pd.DataFrame(data={'sents': sents, 'relations': relations})
     
     rm = Relations_Mapper(df_train['relations'])
