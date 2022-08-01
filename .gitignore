@@ -16,10 +16,3 @@
 /data/task_test_precision_per_epoch_0.pkl
 /data/task_test_recall_per_epoch_0.pkl
 /data/task_test_f1_per_epoch_0.pkl
-
-/data/task_loss_vs_epoch_0.png
-/data/task_train_accuracy_vs_epoch_0.png
-/data/task_test_accuracy_vs_epoch_0.png
-/data/task_test_precision_vs_epoch_0.png
-/data/task_test_recall_vs_epoch_0.png
-/data/task_test_f1_vs_epoch_0.png

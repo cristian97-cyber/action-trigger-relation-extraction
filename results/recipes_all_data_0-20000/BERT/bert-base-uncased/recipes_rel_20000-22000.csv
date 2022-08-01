@@ -1,0 +1,116 @@
+rel,desc
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a post to Buffer and this [E2]trigger[/E2] fires every time you add a new post to Buffer or post now via Buffer.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a post to Buffer and this [E2]trigger[/E2] fires every time you add a new photo to Buffer or post now via Buffer.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new note in the notebook you specify on Evernote and this [E2]trigger[/E2] fires every time you create a new note in a specific notebook on Evernote.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a photo to Buffer and this [E2]trigger[/E2] fires every time you add a new post to Buffer or post now via Buffer.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a photo to Buffer and this [E2]trigger[/E2] fires every time you add a new photo to Buffer or post now via Buffer.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add an event to your Google Calendar and this [E2]trigger[/E2] fires a set number of minutes before the starting time of an event on your Google Calendar that contains a specific keyword or phrase.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add an event to your Google Calendar and this [E2]trigger[/E2] fires a set number of minutes before the starting time of any event on your Google Calendar.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new link post on your Facebook Page wall and this [E2]trigger[/E2] fires every time you create a new link post on your Facebook Page.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new link post on your Facebook Page wall and this [E2]trigger[/E2] fires every time you create a new status message on your Facebook Page.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new link post on your Facebook Page wall and this [E2]trigger[/E2] fires every time you upload a new photo on your Facebook Page.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will shorten and add a new bitlink to your bitly account and this [E2]trigger[/E2] fires every time you create a new bitlink on Bitly.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new item to your Pocket queue and this [E2]trigger[/E2] fires every time you tag an item with a specific tag in Pocket.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new item to your Pocket queue and this [E2]trigger[/E2] fires every time you favorite an item in Pocket.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new item to your Pocket queue and this [E2]trigger[/E2] fires every time any new item is added to Pocket.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new item to your Pocket queue and this [E2]trigger[/E2] fires every time an item is archived in Pocket.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will submit a new text post on reddit and this [E2]trigger[/E2] fires every time you save a post on reddit.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account with a linked pic and this [E2]trigger[/E2] fires every time you post a new tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account with a linked pic and this [E2]trigger[/E2] fires every time a new tweet matches your search query on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account with a linked pic and this [E2]trigger[/E2] fires every time you like a tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account with a linked pic and this [E2]trigger[/E2] fires every time the Twitter user you specify tweets.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account with a linked pic and this [E2]trigger[/E2] fires every time you post a new tweet with a specific hashtag on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account with a linked pic and this [E2]trigger[/E2] fires every time you are @mentioned in a tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account with a linked pic and this [E2]trigger[/E2] fires every time a new user starts following you on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account with a linked pic and this [E2]trigger[/E2] fires for every link you tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account and this [E2]trigger[/E2] fires every time you post a new tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account and this [E2]trigger[/E2] fires every time a new tweet matches your search query on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account and this [E2]trigger[/E2] fires every time you like a tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account and this [E2]trigger[/E2] fires every time the Twitter user you specify tweets.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account and this [E2]trigger[/E2] fires every time you post a new tweet with a specific hashtag on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account and this [E2]trigger[/E2] fires every time you are @mentioned in a tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account and this [E2]trigger[/E2] fires every time a new user starts following you on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account and this [E2]trigger[/E2] fires for every link you tweet on Twitter.
+Other,This [E1]action[/E1] will send a text message to a Telegram chat and This [E2]trigger[/E2] fires when any user sends the /ifttt command to the source group on Telegram.
+"Cause-Effect(e1,e2)","This [E1]action[/E1] will upload a new photo, from the given URL, to a Facebook Page album you specify and this [E2]trigger[/E2] fires every time you create a new link post on your Facebook Page."
+"Cause-Effect(e1,e2)","This [E1]action[/E1] will upload a new photo, from the given URL, to a Facebook Page album you specify and this [E2]trigger[/E2] fires every time you create a new status message on your Facebook Page."
+"Cause-Effect(e1,e2)","This [E1]action[/E1] will upload a new photo, from the given URL, to a Facebook Page album you specify and this [E2]trigger[/E2] fires every time you upload a new photo on your Facebook Page."
+Other,This [E1]action[/E1] will Turn On/Off a device that is available on ThingaOS and This [E2]trigger[/E2] fires when fetch-it button is pressed or long pressed on ThingaOS.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new public bookmark to your Delicious account and this [E2]trigger[/E2] fires every time you create a new public bookmark on Delicious.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new public bookmark to your Delicious account and this [E2]trigger[/E2] fires every time you create a new public bookmark with a tag you specify on Delicious.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a public bookmark to your Diigo account and this [E2]trigger[/E2] fires every time you create a new public bookmark on Diigo.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a public bookmark to your Diigo account and this [E2]trigger[/E2] fires every time you create a new public bookmark with a single tag you specify on Diigo.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a private bookmark to your Diigo account and this [E2]trigger[/E2] fires every time you create a new public bookmark on Diigo.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a private bookmark to your Diigo account and this [E2]trigger[/E2] fires every time you create a new public bookmark with a single tag you specify on Diigo.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will append to a note as determined by its title and notebook on Evernote and this [E2]trigger[/E2] fires every time you create a new note in a specific notebook on Evernote.
+Other,This [E1]action[/E1] will try to find an RSS feed from the provided URL and subscribe you to it on Inoreader and this [E2]trigger[/E2] will fire every time you broadcast an article on Inoreader.
+Other,This [E1]action[/E1] will try to find an RSS feed from the provided URL and subscribe you to it on Inoreader and this [E2]trigger[/E2] will fire every time you like an article on Inoreader.
+Other,This [E1]action[/E1] will try to find an RSS feed from the provided URL and subscribe you to it on Inoreader and this [E2]trigger[/E2] will fire every time you star an article on Inoreader.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will try to find an RSS feed from the provided URL and subscribe you to it on Inoreader and this [E2]trigger[/E2] will fire every time you subscribe to a feed (RSS or social network) on Inoreader.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new private bookmark to your Delicious account and this [E2]trigger[/E2] fires every time you create a new public bookmark on Delicious.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new private bookmark to your Delicious account and this [E2]trigger[/E2] fires every time you create a new public bookmark with a tag you specify on Delicious.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new link note from a source URL in the notebook you specify on Evernote and this [E2]trigger[/E2] fires every time you create a new note in a specific notebook on Evernote.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a card on the specified list in specified board on Trello and this [E2]trigger[/E2] fires every time a card is added to a specified list on Trello.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will save a new item to Instapaper and this [E2]trigger[/E2] fires every time you save a new item to Instapaper.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will save a new item to Instapaper and this [E2]trigger[/E2] fires every time you highlight an item on Instapaper.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will save a new item to Instapaper and this [E2]trigger[/E2] fires every time you like a new item in Instapaper.
+"Cause-Effect(e1,e2)","This [E1]action[/E1] will upload a new public photo, from a given URL to an image, to your Flickr photostream and this [E2]trigger[/E2] fires every time you upload a new public photo to your Flickr photostream."
+"Cause-Effect(e1,e2)","This [E1]action[/E1] will upload a new public photo, from a given URL to an image, to your Flickr photostream and this [E2]trigger[/E2] fires every time you favorite a public photo on Flickr."
+"Cause-Effect(e1,e2)","This [E1]action[/E1] will upload a new public photo, from a given URL to an image, to your Flickr photostream and this [E2]trigger[/E2] fires every time you upload a new public photo to your Flickr photostream with the tag you specify."
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will download a file at a given URL and add it to Dropbox at the path you specify and this [E2]trigger[/E2] fires every time a photo is saved in the folder you specify on Dropbox.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will download a file at a given URL and add it to Dropbox at the path you specify and this [E2]trigger[/E2] fires every time any file is saved in the folder you specify on Dropbox.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will call your phone number and say a message and this [E2]trigger[/E2] fires every time you leave any voicemail at your IFTTT phone number.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new plain text status message on your Facebook Page and this [E2]trigger[/E2] fires every time you create a new link post on your Facebook Page.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new plain text status message on your Facebook Page and this [E2]trigger[/E2] fires every time you create a new status message on your Facebook Page.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new plain text status message on your Facebook Page and this [E2]trigger[/E2] fires every time you upload a new photo on your Facebook Page.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will send you an HTML based email and Send IFTTT an email at [E2]trigger[/E2]@applet.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will send you an HTML based email and Send IFTTT any email at [E2]trigger[/E2]@applet.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will update your profile picture from the image URL you specify and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time you post a new tweet on Twitter.
+Other,This [E1]action[/E1] will update your profile picture from the image URL you specify and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time a new tweet matches your search query on Twitter.
+Other,This [E1]action[/E1] will update your profile picture from the image URL you specify and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time you like a tweet on Twitter.
+Other,This [E1]action[/E1] will update your profile picture from the image URL you specify and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time the Twitter user you specify tweets.
+Other,This [E1]action[/E1] will update your profile picture from the image URL you specify and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time you post a new tweet with a specific hashtag on Twitter.
+Other,This [E1]action[/E1] will update your profile picture from the image URL you specify and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time you are @mentioned in a tweet on Twitter.
+Other,This [E1]action[/E1] will update your profile picture from the image URL you specify and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time a new user starts following you on Twitter.
+Other,This [E1]action[/E1] will update your profile picture from the image URL you specify and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires for every link you tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a normal post on your WordPress blog and this [E2]trigger[/E2] fires every time you publish a new post on your public WordPress blog.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new note with an audio attachment in the notebook you specify on Evernote and this [E2]trigger[/E2] fires every time you create a new note in a specific notebook on Evernote.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will upload a new private track from the URL you specify on SoundCloud and this [E2]trigger[/E2] fires every time you like a public track on SoundCloud.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will upload a new private track from the URL you specify on SoundCloud and this [E2]trigger[/E2] fires every time you upload a new public track on SoundCloud.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will upload a new private track from the URL you specify on SoundCloud and this [E2]trigger[/E2] fires every time a new track is uploaded to SoundCloud that matches the search query you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will upload a new private track from the URL you specify on SoundCloud and this [E2]trigger[/E2] fires every time a new public track is uploaded by anyone you follow on SoundCloud.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new note with an image attachment in the notebook you specify on Evernote and this [E2]trigger[/E2] fires every time you create a new note in a specific notebook on Evernote.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will upload a new public track from the URL you specify on SoundCloud and this [E2]trigger[/E2] fires every time you like a public track on SoundCloud.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will upload a new public track from the URL you specify on SoundCloud and this [E2]trigger[/E2] fires every time you upload a new public track on SoundCloud.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will upload a new public track from the URL you specify on SoundCloud and this [E2]trigger[/E2] fires every time a new track is uploaded to SoundCloud that matches the search query you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will upload a new public track from the URL you specify on SoundCloud and this [E2]trigger[/E2] fires every time a new public track is uploaded by anyone you follow on SoundCloud.
+Other,This [E1]action[/E1] will append to a text file as determined by the file name and folder path you specify on Dropbox and this [E2]trigger[/E2] fires every time a photo is saved in the folder you specify on Dropbox.
+Other,This [E1]action[/E1] will append to a text file as determined by the file name and folder path you specify on Dropbox and this [E2]trigger[/E2] fires every time any file is saved in the folder you specify on Dropbox.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Switch on and this [E2]trigger[/E2] fires every time your WeMo Switch is turned on.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Switch on and this [E2]trigger[/E2] fires every time your WeMo Switch is turned off.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Switch off and this [E2]trigger[/E2] fires every time your WeMo Switch is turned on.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Switch off and this [E2]trigger[/E2] fires every time your WeMo Switch is turned off.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will update your bio and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time you post a new tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will update your bio and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time a new tweet matches your search query on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will update your bio and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time you like a tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will update your bio and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time the Twitter user you specify tweets.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will update your bio and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time you post a new tweet with a specific hashtag on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will update your bio and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time you are @mentioned in a tweet on Twitter.
+Other,This [E1]action[/E1] will update your bio and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time a new user starts following you on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will update your bio and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires for every link you tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new text file at the path you specify on Dropbox and this [E2]trigger[/E2] fires every time a photo is saved in the folder you specify on Dropbox.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new text file at the path you specify on Dropbox and this [E2]trigger[/E2] fires every time any file is saved in the folder you specify on Dropbox.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Switch off then immediately back on and this [E2]trigger[/E2] fires every time your WeMo Switch is turned on.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Switch off then immediately back on and this [E2]trigger[/E2] fires every time your WeMo Switch is turned off.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Switch on then immediately back off and this [E2]trigger[/E2] fires every time your WeMo Switch is turned on.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Switch on then immediately back off and this [E2]trigger[/E2] fires every time your WeMo Switch is turned off.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will toggle a WeMo Switch on or off and this [E2]trigger[/E2] fires every time your WeMo Switch is turned on.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will toggle a WeMo Switch on or off and this [E2]trigger[/E2] fires every time your WeMo Switch is turned off.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new article URL to your Saved For Later queue on Feedly and This [E2]trigger[/E2] fires every time a new article from a specific category appears on Feedly.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new article URL to your Saved For Later queue on Feedly and This [E2]trigger[/E2] fires every time a new article is added to your Saved For Later queue on Feedly.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new article URL to your Saved For Later queue on Feedly and This [E2]trigger[/E2] fires every time you add any new source to Feedly.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a private bookmark to your Pinboard account and this [E2]trigger[/E2] fires every time you create a new public bookmark with a single tag you specify on Pinboard.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a private bookmark to your Pinboard account and this [E2]trigger[/E2] fires every time you create a new public bookmark on Pinboard.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will attempt to add a new source from a feed or page URL on Feedly and This [E2]trigger[/E2] fires every time a new article from a specific category appears on Feedly.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will attempt to add a new source from a feed or page URL on Feedly and This [E2]trigger[/E2] fires every time a new article is added to your Saved For Later queue on Feedly.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will attempt to add a new source from a feed or page URL on Feedly and This [E2]trigger[/E2] fires every time you add any new source to Feedly.
