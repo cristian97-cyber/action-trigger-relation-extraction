@@ -1,0 +1,287 @@
+rel,desc
+Other,This [E1]action[/E1] will record 60 seconds of video from your SkyBell and this [E2]trigger[/E2] fires every time the button is pressed on your SkyBell HD.
+Other,This [E1]action[/E1] will record 60 seconds of video from your SkyBell and this [E2]trigger[/E2] fires every time your SkyBell HD detects motions.
+Other,This [E1]action[/E1] will turn off the designated SpotCam and this [E2]trigger[/E2] fires every time a motion event is detected on SpotCam.
+Other,This [E1]action[/E1] will turn off the designated SpotCam and this [E2]trigger[/E2] fires every time an audio event is detected on SpotCam.
+Other,This [E1]action[/E1] will turn off the designated SpotCam and this [E2]trigger[/E2] fires every time a temperature event is detected on SpotCam.
+Other,This [E1]action[/E1] will turn off the designated SpotCam and this [E2]trigger[/E2] fires every time a illumination event is detected on SpotCam.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account and this [E2]trigger[/E2] fires every time you post a new tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account and this [E2]trigger[/E2] fires every time you are @mentioned in a tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account and this [E2]trigger[/E2] fires every time you like a tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account and this [E2]trigger[/E2] fires every time you post a new tweet with a specific hashtag on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account and this [E2]trigger[/E2] fires every time a new tweet matches your search query on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account and this [E2]trigger[/E2] fires every time the Twitter user you specify tweets.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn off the selected switch on abode and This [E2]trigger[/E2] fires when the selected door is opened on abode.
+Other,This [E1]action[/E1] will turn off the selected switch on abode and This [E2]trigger[/E2] fires when an abode alarm is active.
+Other,This [E1]action[/E1] will turn the Sleep Mode ON or OFF on EZVIZ and this [E2]trigger[/E2] fires when an alarm event occurs on EZVIZ.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new task to the folder you specify on Toodledo and this [E2]trigger[/E2] fires every time any task is completed in your Toodledo list.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new task to the folder you specify on Toodledo and this [E2]trigger[/E2] fires every time a new task is added to your Toodledo list.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account with a linked pic and this [E2]trigger[/E2] fires every time you post a new tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account with a linked pic and this [E2]trigger[/E2] fires every time you are @mentioned in a tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account with a linked pic and this [E2]trigger[/E2] fires every time you like a tweet on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account with a linked pic and this [E2]trigger[/E2] fires every time you post a new tweet with a specific hashtag on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account with a linked pic and this [E2]trigger[/E2] fires every time a new tweet matches your search query on Twitter.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will post a new tweet to your Twitter account with a linked pic and this [E2]trigger[/E2] fires every time the Twitter user you specify tweets.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Insight Switch on and this [E2]trigger[/E2] fires every time your WeMo Insight Switch is turned on.
+Other,This [E1]action[/E1] will take a snapshot and email it to your SpotCam account email address and this [E2]trigger[/E2] fires every time a motion event is detected on SpotCam.
+Other,This [E1]action[/E1] will take a snapshot and email it to your SpotCam account email address and this [E2]trigger[/E2] fires every time an audio event is detected on SpotCam.
+Other,This [E1]action[/E1] will take a snapshot and email it to your SpotCam account email address and this [E2]trigger[/E2] fires every time a temperature event is detected on SpotCam.
+Other,This [E1]action[/E1] will take a snapshot and email it to your SpotCam account email address and this [E2]trigger[/E2] fires every time a illumination event is detected on SpotCam.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will send you an HTML based email and Send IFTTT an email at [E2]trigger[/E2]@applet.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will toggle a WeMo Light Switch on or off and this [E2]trigger[/E2] fires every time your WeMo Light Switch is turned on.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will toggle a WeMo Light Switch on or off and this [E2]trigger[/E2] fires every time your WeMo Light Switch is turned off.
+Other,This [E1]action[/E1] will turn on your Spotcam's alert function and this [E2]trigger[/E2] fires every time a motion event is detected on SpotCam.
+Other,This [E1]action[/E1] will turn on your Spotcam's alert function and this [E2]trigger[/E2] fires every time an audio event is detected on SpotCam.
+Other,This [E1]action[/E1] will turn on your Spotcam's alert function and this [E2]trigger[/E2] fires every time a temperature event is detected on SpotCam.
+Other,This [E1]action[/E1] will turn on your Spotcam's alert function and this [E2]trigger[/E2] fires every time a illumination event is detected on SpotCam.
+Other,This [E1]action[/E1] will turn on the designated SpotCam and this [E2]trigger[/E2] fires every time a motion event is detected on SpotCam.
+Other,This [E1]action[/E1] will turn on the designated SpotCam and this [E2]trigger[/E2] fires every time an audio event is detected on SpotCam.
+Other,This [E1]action[/E1] will turn on the designated SpotCam and this [E2]trigger[/E2] fires every time a temperature event is detected on SpotCam.
+Other,This [E1]action[/E1] will turn on the designated SpotCam and this [E2]trigger[/E2] fires every time a illumination event is detected on SpotCam.
+Other,This [E1]action[/E1] will start recording with the selected camera on Arlo and this [E2]trigger[/E2] fires when your Arlo device detects motion.
+Other,This [E1]action[/E1] will start recording with the selected camera on Arlo and this [E2]trigger[/E2] fires every time when audio is detected on your Arlo device.
+Other,This [E1]action[/E1] will turn off your Spotcam's alert function and this [E2]trigger[/E2] fires every time a motion event is detected on SpotCam.
+Other,This [E1]action[/E1] will turn off your Spotcam's alert function and this [E2]trigger[/E2] fires every time an audio event is detected on SpotCam.
+Other,This [E1]action[/E1] will turn off your Spotcam's alert function and this [E2]trigger[/E2] fires every time a temperature event is detected on SpotCam.
+Other,This [E1]action[/E1] will turn off your Spotcam's alert function and this [E2]trigger[/E2] fires every time a illumination event is detected on SpotCam.
+Other,This [E1]action[/E1] will move your SpotCam HD Eva to the preset point and this [E2]trigger[/E2] fires every time a motion event is detected on SpotCam.
+Other,This [E1]action[/E1] will move your SpotCam HD Eva to the preset point and this [E2]trigger[/E2] fires every time an audio event is detected on SpotCam.
+Other,This [E1]action[/E1] will move your SpotCam HD Eva to the preset point and this [E2]trigger[/E2] fires every time a temperature event is detected on SpotCam.
+Other,This [E1]action[/E1] will move your SpotCam HD Eva to the preset point and this [E2]trigger[/E2] fires every time a illumination event is detected on SpotCam.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Switch off and this [E2]trigger[/E2] fires every time your WeMo Switch is turned on.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will close the garage door you specify on Garageio and this [E2]trigger[/E2] fires every time a garage door you manage is opened or closed via the Garageio website or smartphone app.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Switch on and this [E2]trigger[/E2] fires every time your WeMo Switch is turned on.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Switch off and this [E2]trigger[/E2] fires every time your WeMo Insight Switch is turned on.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add an event to your Google Calendar and this [E2]trigger[/E2] fires every time a new event is added to your Google Calendar.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add an event to your Google Calendar and this [E2]trigger[/E2] fires a set number of minutes before the starting time of an event on your Google Calendar that contains a specific keyword or phrase.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add an event to your Google Calendar and this [E2]trigger[/E2] fires a set number of minutes before the starting time of any event on your Google Calendar.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will call your phone number and say a message and this [E2]trigger[/E2] fires every time you leave any voicemail at your IFTTT phone number.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new contact in Google Contacts and this [E2]trigger[/E2] fires every time a Google Contact is added to a group.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new item to your Pocket queue and this [E2]trigger[/E2] fires every time an item is archived in Pocket.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new item to your Pocket queue and this [E2]trigger[/E2] fires every time any new item is added to Pocket.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will download a file at a given URL and add it to Dropbox at the path you specify and this [E2]trigger[/E2] fires every time any file is saved in the folder you specify on Dropbox.
+Other,This [E1]action[/E1] will set the thermostat into a hold with the specified temperature for the specified number of hours on ecobee and This [E2]trigger[/E2] fires every time your ecobee thermostat and Room Sensors change to Smart Home or Smart Away comfort profiles.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will search for a track and add the first result to a playlist you specify on Spotify and this [E2]trigger[/E2] fires every time a new track is added to a playlist you specify on Spotify.
+"Cause-Effect(e1,e2)","This [E1]action[/E1] will upload a new public photo, from a given URL to an image, to your Flickr photostream and this [E2]trigger[/E2] fires every time you favorite a public photo on Flickr."
+"Cause-Effect(e1,e2)","This [E1]action[/E1] will upload a new public photo, from a given URL to an image, to your Flickr photostream and this [E2]trigger[/E2] fires once new photos are detected in your Flickr photostream."
+"Cause-Effect(e1,e2)","This [E1]action[/E1] will upload a new public photo, from a given URL to an image, to your Flickr photostream and this [E2]trigger[/E2] fires every time you upload a new public photo to your Flickr photostream."
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new link post on your Facebook Page wall and this [E2]trigger[/E2] fires every time you upload a new photo on your Facebook Page.
+Other,This [E1]action[/E1] will append to a note as determined by its title and notebook on Evernote and this [E2]trigger[/E2] fires every time you add a specific tag to any of your notes on Evernote.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will append to a note as determined by its title and notebook on Evernote and this [E2]trigger[/E2] fires every time you create a new note in a specific notebook on Evernote.
+Other,This [E1]action[/E1] will send an SMS from your Android device to any phone number you specify and this [E2]trigger[/E2] fires every time you receive any new SMS on your Android device.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will send an SMS from your Android device to any phone number you specify and this [E2]trigger[/E2] fires every time you receive an SMS on your Android device from a phone number you specify.
+Other,This [E1]action[/E1] will send an SMS from your Android device to any phone number you specify and this [E2]trigger[/E2] fires every time you send an SMS on your Android device.
+Other,This [E1]action[/E1] will turn on bed warming for the side of the bed you choose on Eight and this [E2]trigger[/E2] fires when you tap the 'Night mode' or 'Day mode' buttons in the Eight App.
+Other,This [E1]action[/E1] will turn on bed warming for the side of the bed you choose on Eight and this [E2]trigger[/E2] fires when an event related to the Eight alarm happens.
+Other,This [E1]action[/E1] will lock your SmartThings devices that support locking and this [E2]trigger[/E2] fires every time your SmartThings device is closed.
+Other,This [E1]action[/E1] will lock your SmartThings devices that support locking and this [E2]trigger[/E2] fires every time your SmartThings device's presence is no longer detected.
+Other,This [E1]action[/E1] will lock your SmartThings devices that support locking and this [E2]trigger[/E2] fires every time your SmartThings device's presence is detected.
+Other,This [E1]action[/E1] will lock your SmartThings devices that support locking and this [E2]trigger[/E2] fires every time your SmartThings device is opened.
+Other,This [E1]action[/E1] will lock your SmartThings devices that support locking and this [E2]trigger[/E2] fire every time your SmartThings device is unlocked.
+Other,This [E1]action[/E1] will lock your SmartThings devices that support locking and this [E2]trigger[/E2] fires every time your SmartThings device is locked.
+Other,This [E1]action[/E1] will lock your SmartThings devices that support locking and this [E2]trigger[/E2] fires every time your SmartThings device senses motion.
+Other,This [E1]action[/E1] will lock your SmartThings devices that support locking and this [E2]trigger[/E2] fires every time your SmartThings device detects moisture.
+Other,This [E1]action[/E1] will lock your SmartThings devices that support locking and this [E2]trigger[/E2] fires every time your SmartThings device detects temperatures above a value you specify.
+Other,This [E1]action[/E1] will lock your SmartThings devices that support locking and this [E2]trigger[/E2] fires every time your SmartThings device detects temperatures below a value you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn on the selected switch on abode and This [E2]trigger[/E2] fires when the selected door is opened on abode.
+Other,This [E1]action[/E1] will turn on the selected switch on abode and This [E2]trigger[/E2] fires when an abode alarm is active.
+Other,This [E1]action[/E1] will mute your Android device's ringtone and this [E2]trigger[/E2] fires every time your Android device connects to a WiFi network you specify.
+Other,This [E1]action[/E1] will mute your Android device's ringtone and this [E2]trigger[/E2] fires every time your Android device disconnects from a WiFi network you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will allow you to switch on the selected neoPlug on Heatmiser and this [E2]trigger[/E2] fires every time the temperature drops above a threshold you specify on Heatmiser.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will activate Standby Mode on the selected Heatmiser Thermostat and this [E2]trigger[/E2] fires every time the temperature drops above a threshold you specify on Heatmiser.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will cancel Standby Mode on the selected Heatmiser Thermostat and this [E2]trigger[/E2] fires every time the temperature drops above a threshold you specify on Heatmiser.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will change your abode system to the selected system mode and This [E2]trigger[/E2] fires when the selected door is opened on abode.
+Other,This [E1]action[/E1] will change your abode system to the selected system mode and This [E2]trigger[/E2] fires when an abode alarm is active.
+Other,This [E1]action[/E1] will turn on one of your Futurehome devices and this [E2]trigger[/E2] fires every time your site changes modes on Futurehome.
+Other,This [E1]action[/E1] will turn on one of your Futurehome devices and this [E2]trigger[/E2] fires every time motion has been detected in one of your rooms on Futurehome.
+Other,This [E1]action[/E1] will turn on one of your Futurehome devices and This [E2]trigger[/E2] runs every time a Futurehome Smarthub loses connection.
+Other,This [E1]action[/E1] will turn on one of your Futurehome devices and this [E2]trigger[/E2] fires every time motion is no longer detected in a room on Futurehome.
+"Cause-Effect(e1,e2)","This [E1]action[/E1] will turn on your A/C in the specified room, and run it in Comfort mode on Ambi Climate and this [E2]trigger[/E2] fires when your device detects the temperature is above the threshold you specified on Ambi Climate."
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will lock the door and This [E2]trigger[/E2] fires every time someone unlocks the door with Auto Unlock.
+Other,This [E1]action[/E1] will lock the door and This [E2]trigger[/E2] fires every time someone locks the door with Lock 'n' Go by pressing the button on the Smart Lock twice.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn off your A/C in the specified room on Ambi Climate and this [E2]trigger[/E2] fires when your device detects the temperature is above the threshold you specified on Ambi Climate.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will close the door you specify on Nice and This [E2]trigger[/E2] fires when the door is fully or partially open on Nice.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will close the door you specify on Nice and This [E2]trigger[/E2] fires when the door is fully closed on Nice.
+Other,This [E1]action[/E1] will send a video to a Telegram chat and This [E2]trigger[/E2] fires when you send a text message with a key phrase to the @IFTTT bot on Telegram.
+Other,This [E1]action[/E1] will send a video to a Telegram chat and This [E2]trigger[/E2] fires when a new message is posted in a public channel where you are an admin on Telegram.
+Other,This [E1]action[/E1] will send a video to a Telegram chat and This [E2]trigger[/E2] fires when a user sends a message with the /ifttt command and a key phrase to the source group on Telegram.
+Other,This [E1]action[/E1] will send a text message to a Telegram chat and This [E2]trigger[/E2] fires when you send a text message with a key phrase to the @IFTTT bot on Telegram.
+Other,This [E1]action[/E1] will send a text message to a Telegram chat and This [E2]trigger[/E2] fires when a new message is posted in a public channel where you are an admin on Telegram.
+Other,This [E1]action[/E1] will send a text message to a Telegram chat and This [E2]trigger[/E2] fires when a user sends a message with the /ifttt command and a key phrase to the source group on Telegram.
+Other,This [E1]action[/E1] will send a photo to a Telegram chat and This [E2]trigger[/E2] fires when you send a text message with a key phrase to the @IFTTT bot on Telegram.
+Other,This [E1]action[/E1] will send a photo to a Telegram chat and This [E2]trigger[/E2] fires when a new message is posted in a public channel where you are an admin on Telegram.
+Other,This [E1]action[/E1] will send a photo to a Telegram chat and This [E2]trigger[/E2] fires when a user sends a message with the /ifttt command and a key phrase to the source group on Telegram.
+Other,This [E1]action[/E1] will send an mp3 to a Telegram chat and This [E2]trigger[/E2] fires when you send a text message with a key phrase to the @IFTTT bot on Telegram.
+Other,This [E1]action[/E1] will send an mp3 to a Telegram chat and This [E2]trigger[/E2] fires when a new message is posted in a public channel where you are an admin on Telegram.
+Other,This [E1]action[/E1] will send an mp3 to a Telegram chat and This [E2]trigger[/E2] fires when a user sends a message with the /ifttt command and a key phrase to the source group on Telegram.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will set a Nest Thermostat to the temperature you specify and this [E2]trigger[/E2] fires every time the temperature drops below a threshold you specify on Nest Thermostat.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will set a Nest Thermostat to the temperature you specify and this [E2]trigger[/E2] fires every time the temperature rises above a threshold you specify on Nest Thermostat.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will set a Nest Thermostat to the temperature you specify and this [E2]trigger[/E2] fires every time the home you specify is set to Away on Nest Thermostat.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will set a Nest Thermostat to the temperature you specify and this [E2]trigger[/E2] fires every time the home you specify is set to Home on Nest Thermostat.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new text file at the path you specify on Dropbox and this [E2]trigger[/E2] fires every time any file is saved in the folder you specify on Dropbox.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will toggle a WeMo Switch on or off and this [E2]trigger[/E2] fires every time your WeMo Switch is turned on.
+Other,This [E1]action[/E1] will set/change the user profile picture on QNAP Device and This [E2]trigger[/E2] fires every time a new system event occurs on your QNAP device.
+Other,This [E1]action[/E1] will set/change the user profile picture on QNAP Device and This [E2]trigger[/E2] fires every time when a new file is stored to the selected folder on QNAP.
+Other,This [E1]action[/E1] will download a file from a given URL to your NAS at a path which you specify on QNAP and This [E2]trigger[/E2] fires every time a new system event occurs on your QNAP device.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will download a file from a given URL to your NAS at a path which you specify on QNAP and This [E2]trigger[/E2] fires every time when a new file is stored to the selected folder on QNAP.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will open the door you specify on Nice and This [E2]trigger[/E2] fires when the door is fully or partially open on Nice.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will open the door you specify on Nice and This [E2]trigger[/E2] fires when the door is fully closed on Nice.
+Other,This [E1]action[/E1] will turn on a Z-Wave switch you specify on Z-Ware and This [E2]trigger[/E2] fires when a Z-Wave sensor detects motion on Z-Ware.
+Other,This [E1]action[/E1] will turn on a Z-Wave switch you specify on Z-Ware and This [E2]trigger[/E2] fires when a Z-Wave sensor detects water leak on Z-Ware.
+Other,This [E1]action[/E1] will set a Z-Wave thermostat you specify to heating mode on Z-Ware and This [E2]trigger[/E2] fires when a Z-Wave sensor detects motion on Z-Ware.
+Other,This [E1]action[/E1] will set a Z-Wave thermostat you specify to heating mode on Z-Ware and This [E2]trigger[/E2] fires when a Z-Wave sensor detects water leak on Z-Ware.
+Other,This [E1]action[/E1] will append to a text file as determined by the filename and folder path you specify on QNAP and This [E2]trigger[/E2] fires every time a new system event occurs on your QNAP device.
+Other,This [E1]action[/E1] will append to a text file as determined by the filename and folder path you specify on QNAP and This [E2]trigger[/E2] fires every time when a new file is stored to the selected folder on QNAP.
+Other,This [E1]action[/E1] will send a message to your Bbox Miami and This [E2]trigger[/E2] fires when you watch a specific TV channel on Bbox Miami.
+Other,This [E1]action[/E1] will display a message and the name of the TV program you are currently watching on your Bbox Miami and This [E2]trigger[/E2] fires when you watch a specific TV channel on Bbox Miami.
+Other,This [E1]action[/E1] will change the volume on your Bbox Miami and This [E2]trigger[/E2] fires when you watch a specific TV channel on Bbox Miami.
+Other,This [E1]action[/E1] will set a Z-Wave dimmer to a level you specify on Z-Ware and This [E2]trigger[/E2] fires when a Z-Wave sensor detects motion on Z-Ware.
+Other,This [E1]action[/E1] will set a Z-Wave dimmer to a level you specify on Z-Ware and This [E2]trigger[/E2] fires when a Z-Wave sensor detects water leak on Z-Ware.
+Other,This [E1]action[/E1] will set your Blink system to Disarmed and this [E2]trigger[/E2] fires when your Blink camera detects motion.
+Other,This [E1]action[/E1] will set your Blink system to Armed and this [E2]trigger[/E2] fires when your Blink camera detects motion.
+Other,This [E1]action[/E1] will set a Z-Wave thermostat you specify to cooling mode on Z-Ware and This [E2]trigger[/E2] fires when a Z-Wave sensor detects motion on Z-Ware.
+Other,This [E1]action[/E1] will set a Z-Wave thermostat you specify to cooling mode on Z-Ware and This [E2]trigger[/E2] fires when a Z-Wave sensor detects water leak on Z-Ware.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will set your thermostat to a specified temperature and This [E2]trigger[/E2] fires when you are scheduled to be Away and nobody is in the house on Warmup Smart Thermostat.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will set your thermostat to a specified temperature and This [E2]trigger[/E2] fires every time the temperature rises above a specified temperature on Warmup Smart Thermostat.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will set your thermostat to a specified temperature and This [E2]trigger[/E2] fires when you are scheduled to be Home and somebody is at Home on Warmup Smart Thermostat.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will set your thermostat to a specified temperature and This [E2]trigger[/E2] fires when you are scheduled to be in Sleep mode and somebody is at home on Warmup Smart Thermostat.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will set your thermostat to a specified temperature and This [E2]trigger[/E2] fires every time the temperature drops below a specified temperature on Warmup Smart Thermostat.
+Other,This [E1]action[/E1] will turn off one of your Futurehome devices and this [E2]trigger[/E2] fires every time your site changes modes on Futurehome.
+Other,This [E1]action[/E1] will turn off one of your Futurehome devices and this [E2]trigger[/E2] fires every time motion has been detected in one of your rooms on Futurehome.
+Other,This [E1]action[/E1] will turn off one of your Futurehome devices and This [E2]trigger[/E2] runs every time a Futurehome Smarthub loses connection.
+Other,This [E1]action[/E1] will turn off one of your Futurehome devices and this [E2]trigger[/E2] fires every time motion is no longer detected in a room on Futurehome.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new link note from a source URL in the notebook you specify on Evernote and this [E2]trigger[/E2] fires every time you add a specific tag to any of your notes on Evernote.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new link note from a source URL in the notebook you specify on Evernote and this [E2]trigger[/E2] fires every time you create a new note in a specific notebook on Evernote.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will call a phone number to play customizable text and This [E2]trigger[/E2] fires when we receive your phone call.
+Other,This [E1]action[/E1] will call a phone number to play customizable text and This [E2]trigger[/E2] fires when you leave a voice message on any of our [E2]trigger[/E2] hotlines on woopla phone calls.
+Other,This [E1]action[/E1] will call your phone number to play customizable text and This [E2]trigger[/E2] fires when we receive your phone call.
+Other,This [E1]action[/E1] will call your phone number to play customizable text and This [E2]trigger[/E2] fires when you leave a voice message on any of our [E2]trigger[/E2] hotlines on woopla phone calls.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will call a phone number to play an MP3 audio file and This [E2]trigger[/E2] fires when we receive your phone call.
+Other,This [E1]action[/E1] will call a phone number to play an MP3 audio file and This [E2]trigger[/E2] fires when you leave a voice message on any of our [E2]trigger[/E2] hotlines on woopla phone calls.
+Other,This [E1]action[/E1] will call your phone number to play an MP3 audio file and This [E2]trigger[/E2] fires when we receive your phone call.
+Other,This [E1]action[/E1] will call your phone number to play an MP3 audio file and This [E2]trigger[/E2] fires when you leave a voice message on any of our [E2]trigger[/E2] hotlines on woopla phone calls.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a card on the specified list in specified board on Trello and this [E2]trigger[/E2] fires every time a card is added to a specified list on Trello.
+Other,This [E1]action[/E1] will set your Arlo mode to Armed and this [E2]trigger[/E2] fires when your Arlo device detects motion.
+Other,This [E1]action[/E1] will set your Arlo mode to Armed and this [E2]trigger[/E2] fires every time when audio is detected on your Arlo device.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new reminder to the list you specify on iOS Reminders and this [E2]trigger[/E2] fires every time a new reminder is added to the list you specify on iOS Reminders.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new reminder to the list you specify on iOS Reminders and this [E2]trigger[/E2] fires every time a new reminder is completed in a list you specify on iOS Reminders.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new reminder to the list you specify on iOS Reminders and this [E2]trigger[/E2] fires every time any reminder is completed on iOS Reminders.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will add a new reminder to the list you specify on iOS Reminders and this [E2]trigger[/E2] fires every time you add a new reminder on iOS Reminders.
+Other,This [E1]action[/E1] will set the thermostat into a hold using the settings from the specified comfort profile on ecobee and This [E2]trigger[/E2] fires every time your ecobee thermostat and Room Sensors change to Smart Home or Smart Away comfort profiles.
+Other,This [E1]action[/E1] removes the currently running event on the selected thermostat providing the event is not a mandatory demand response event on ecobee and This [E2]trigger[/E2] fires every time your ecobee thermostat and Room Sensors change to Smart Home or Smart Away comfort profiles.
+Other,This [E1]action[/E1] will set your Arlo mode to Disarmed and this [E2]trigger[/E2] fires when your Arlo device detects motion.
+Other,This [E1]action[/E1] will set your Arlo mode to Disarmed and this [E2]trigger[/E2] fires every time when audio is detected on your Arlo device.
+Other,This [E1]action[/E1] will close the garage door on Garadget and This [E2]trigger[/E2] fires on every door event on Garadget.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will close the garage door on Garadget and This [E2]trigger[/E2] fires when the garage door starts to open on Garadget.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will close the garage door on Garadget and This [E2]trigger[/E2] fires when the garage door fully closes on Garadget.
+Other,This [E1]action[/E1] will open the garage door on Garadget and This [E2]trigger[/E2] fires on every door event on Garadget.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will open the garage door on Garadget and This [E2]trigger[/E2] fires when the garage door starts to open on Garadget.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will open the garage door on Garadget and This [E2]trigger[/E2] fires when the garage door fully closes on Garadget.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a photo post on your WordPress blog from the given URL to an image and this [E2]trigger[/E2] fires every time you publish a new post on your public WordPress blog.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new note with an image attachment in the notebook you specify on Evernote and this [E2]trigger[/E2] fires every time you add a specific tag to any of your notes on Evernote.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new note with an image attachment in the notebook you specify on Evernote and this [E2]trigger[/E2] fires every time you create a new note in a specific notebook on Evernote.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new note in the notebook you specify on Evernote and this [E2]trigger[/E2] fires every time you add a specific tag to any of your notes on Evernote.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new note in the notebook you specify on Evernote and this [E2]trigger[/E2] fires every time you create a new note in a specific notebook on Evernote.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will update your profile picture from the image URL you specify and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time you post a new tweet on Twitter.
+Other,This [E1]action[/E1] will update your profile picture from the image URL you specify and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time you are @mentioned in a tweet on Twitter.
+Other,This [E1]action[/E1] will update your profile picture from the image URL you specify and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time you like a tweet on Twitter.
+Other,This [E1]action[/E1] will update your profile picture from the image URL you specify and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time you post a new tweet with a specific hashtag on Twitter.
+Other,This [E1]action[/E1] will update your profile picture from the image URL you specify and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time a new tweet matches your search query on Twitter.
+Other,This [E1]action[/E1] will update your profile picture from the image URL you specify and optionally tweet about it on Twitter and this [E2]trigger[/E2] fires every time the Twitter user you specify tweets.
+Other,This [E1]action[/E1] will update the wallpaper on your Android device from the image URL you specify and this [E2]trigger[/E2] fires every time your Android device connects to a WiFi network you specify.
+Other,This [E1]action[/E1] will update the wallpaper on your Android device from the image URL you specify and this [E2]trigger[/E2] fires every time your Android device disconnects from a WiFi network you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will send data to a feed in your Adafruit IO account and this [E2]trigger[/E2] fires anytime it validates the data that you send to your feed on Adafruit.
+Other,"This [E1]action[/E1] publishes an event back to your Device(s), which you can catch with particle and this [E2]trigger[/E2] fires when an interesting event comes from a particular device on Particle."
+Other,This [E1]action[/E1] will make a web request to a publicly accessible URL on Webhooks and This [E2]trigger[/E2] fires every time the Maker service receives a web request to notify it of an event on Webhooks.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will run a Nexia automation and This [E2]trigger[/E2] fires when a Nexia automation runs.
+Other,This [E1]action[/E1] will run a Nexia automation and This [E2]trigger[/E2] fires when your lock is unlocked on Nexia.
+Other,This [E1]action[/E1] will send an event to MESH app and this [E2]trigger[/E2] fires every time your IFTTT Tag on MESH app receives an input signal from the other Tag.
+"Cause-Effect(e1,e2)","This [E1]action[/E1] will return control of your hot water to tado⁠°, using your user-defined settings (e and this [E2]trigger[/E2] fires when tado⁠° hot water switches to Home Mode."
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will start preparing your hot water and this [E2]trigger[/E2] fires when tado⁠° hot water switches to Home Mode.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will submit a new link on reddit and this [E2]trigger[/E2] fires every time a new post becomes one of the ten hottest posts in the subreddit you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will submit a new link on reddit and this [E2]trigger[/E2] fires every time a new post submitted on reddit matches a search query you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will submit a new link on reddit and this [E2]trigger[/E2] fires every time a new post becomes one of the ten top posts in the subreddit you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will submit a new link on reddit and this [E2]trigger[/E2] fires every time there is a new post in the subreddit you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will submit a new text post on reddit and this [E2]trigger[/E2] fires every time a new post becomes one of the ten hottest posts in the subreddit you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will submit a new text post on reddit and this [E2]trigger[/E2] fires every time a new post submitted on reddit matches a search query you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will submit a new text post on reddit and this [E2]trigger[/E2] fires every time a new post becomes one of the ten top posts in the subreddit you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will submit a new text post on reddit and this [E2]trigger[/E2] fires every time there is a new post in the subreddit you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will send a given message to a Triby IO you specify and This [E2]trigger[/E2] fires when you press a given button on your Triby IO.
+Other,"This [E1]action[/E1] will play a media among those already preset on a button, on a Triby IO you specify and This [E2]trigger[/E2] fires when you press a given button on your Triby IO."
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will send a given message to a every Triby IO you own and This [E2]trigger[/E2] fires when you press a given button on your Triby IO.
+"Cause-Effect(e1,e2)","This [E1]action[/E1] will make a call to a given user in your group, from a Triby IO you specify and This [E2]trigger[/E2] fires when you press a given button on your Triby IO."
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will start a timer for a given duration on a Triby IO you specify and This [E2]trigger[/E2] fires when you press a given button on your Triby IO.
+Other,This [E1]action[/E1] disarms motion sensor on a tag and this [E2]trigger[/E2] fires when a specified motion sensor tag(s) or reed sensor(s) detect that a door or window is closed.
+Other,This [E1]action[/E1] disarms motion sensor on a tag and this [E2]trigger[/E2] fires when a specified tag senses that its ambient temperature exceeds an upper threshold configured at temperature options screen inside the WirelessTag app.
+Other,This [E1]action[/E1] disarms motion sensor on a tag and this [E2]trigger[/E2] fires when a specified tag senses that its ambient temperature falls below an lower threshold configured at temperature options screen inside the WirelessTag app.
+Other,"This [E1]action[/E1] disarms motion sensor on a tag and this [E2]trigger[/E2] fires when specified motion sensor tag(s) armed in motion detection mode, have moved."
+Other,This [E1]action[/E1] disarms motion sensor on a tag and this [E2]trigger[/E2] fires when a specified motion sensor tag(s) or reed sensor(s) detect that a door or window is open.
+Other,This [E1]action[/E1] disarms motion sensor on a tag and this [E2]trigger[/E2] fires when specified PIR KumoSensor detects movement on Wireless Tag.
+Other,This [E1]action[/E1] disarms motion sensor on a tag and this [E2]trigger[/E2] fires when specified PIR KumoSensor or regular motion sensor tag detects no movement for a time-out period.
+Other,This [E1]action[/E1] arms motion sensor on a tag and this [E2]trigger[/E2] fires when a specified motion sensor tag(s) or reed sensor(s) detect that a door or window is closed.
+Other,This [E1]action[/E1] arms motion sensor on a tag and this [E2]trigger[/E2] fires when a specified tag senses that its ambient temperature exceeds an upper threshold configured at temperature options screen inside the WirelessTag app.
+Other,This [E1]action[/E1] arms motion sensor on a tag and this [E2]trigger[/E2] fires when a specified tag senses that its ambient temperature falls below an lower threshold configured at temperature options screen inside the WirelessTag app.
+Other,"This [E1]action[/E1] arms motion sensor on a tag and this [E2]trigger[/E2] fires when specified motion sensor tag(s) armed in motion detection mode, have moved."
+Other,This [E1]action[/E1] arms motion sensor on a tag and this [E2]trigger[/E2] fires when a specified motion sensor tag(s) or reed sensor(s) detect that a door or window is open.
+Other,This [E1]action[/E1] arms motion sensor on a tag and this [E2]trigger[/E2] fires when specified PIR KumoSensor detects movement on Wireless Tag.
+Other,This [E1]action[/E1] arms motion sensor on a tag and this [E2]trigger[/E2] fires when specified PIR KumoSensor or regular motion sensor tag detects no movement for a time-out period.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new issue for the repository you specify on GitHub and this [E2]trigger[/E2] fires every time a new pull request is opened for a repository you specify on GitHub.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new issue for the repository you specify on GitHub and this [E2]trigger[/E2] fires every time a new issue is assigned to you on GitHub.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new issue for the repository you specify on GitHub and this [E2]trigger[/E2] fires every time any new issue is opened in a repository you own or collaborate on on GitHub.
+Other,This [E1]action[/E1] will activate the output of your cloudBit for 3 seconds on littleBits and this [E2]trigger[/E2] fires every time your cloudBit receives an input signal from another littleBits module.
+Other,This [E1]action[/E1] will activate the output of your cloudBit for 3 seconds on littleBits and this [E2]trigger[/E2] fires every time your cloudBit's input goes from high to low on littleBits.
+Other,This [E1]action[/E1] will deactivate the output of your cloudBit on littleBits and this [E2]trigger[/E2] fires every time your cloudBit receives an input signal from another littleBits module.
+Other,This [E1]action[/E1] will deactivate the output of your cloudBit on littleBits and this [E2]trigger[/E2] fires every time your cloudBit's input goes from high to low on littleBits.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Light Switch on and this [E2]trigger[/E2] fires every time your WeMo Light Switch is turned on.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Light Switch on and this [E2]trigger[/E2] fires every time your WeMo Light Switch is turned off.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Light Switch off and this [E2]trigger[/E2] fires every time your WeMo Light Switch is turned on.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn a WeMo Light Switch off and this [E2]trigger[/E2] fires every time your WeMo Light Switch is turned off.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will set a Nest Thermostat in Heat-Cool mode to the temperature range you specify and this [E2]trigger[/E2] fires every time the temperature drops below a threshold you specify on Nest Thermostat.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will set a Nest Thermostat in Heat-Cool mode to the temperature range you specify and this [E2]trigger[/E2] fires every time the temperature rises above a threshold you specify on Nest Thermostat.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will set a Nest Thermostat in Heat-Cool mode to the temperature range you specify and this [E2]trigger[/E2] fires every time the home you specify is set to Away on Nest Thermostat.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will set a Nest Thermostat in Heat-Cool mode to the temperature range you specify and this [E2]trigger[/E2] fires every time the home you specify is set to Home on Nest Thermostat.
+Other,This [E1]action[/E1] will turn on your SmartThings devices that support switching on and this [E2]trigger[/E2] fires every time your SmartThings device is closed.
+Other,This [E1]action[/E1] will turn on your SmartThings devices that support switching on and this [E2]trigger[/E2] fires every time your SmartThings device's presence is no longer detected.
+Other,This [E1]action[/E1] will turn on your SmartThings devices that support switching on and this [E2]trigger[/E2] fires every time your SmartThings device's presence is detected.
+Other,This [E1]action[/E1] will turn on your SmartThings devices that support switching on and this [E2]trigger[/E2] fires every time your SmartThings device is opened.
+Other,This [E1]action[/E1] will turn on your SmartThings devices that support switching on and this [E2]trigger[/E2] fire every time your SmartThings device is unlocked.
+Other,This [E1]action[/E1] will turn on your SmartThings devices that support switching on and this [E2]trigger[/E2] fires every time your SmartThings device is locked.
+Other,This [E1]action[/E1] will turn on your SmartThings devices that support switching on and this [E2]trigger[/E2] fires every time your SmartThings device senses motion.
+Other,This [E1]action[/E1] will turn on your SmartThings devices that support switching on and this [E2]trigger[/E2] fires every time your SmartThings device detects moisture.
+Other,This [E1]action[/E1] will turn on your SmartThings devices that support switching on and this [E2]trigger[/E2] fires every time your SmartThings device detects temperatures above a value you specify.
+Other,This [E1]action[/E1] will turn on your SmartThings devices that support switching on and this [E2]trigger[/E2] fires every time your SmartThings device detects temperatures below a value you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn on your HVAC system fan for the amount of time you specify in your Nest fan timer setting (default is 15 minutes) and this [E2]trigger[/E2] fires every time the temperature drops below a threshold you specify on Nest Thermostat.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will turn on your HVAC system fan for the amount of time you specify in your Nest fan timer setting (default is 15 minutes) and this [E2]trigger[/E2] fires every time the temperature rises above a threshold you specify on Nest Thermostat.
+Other,This [E1]action[/E1] will turn on your HVAC system fan for the amount of time you specify in your Nest fan timer setting (default is 15 minutes) and this [E2]trigger[/E2] fires every time the home you specify is set to Away on Nest Thermostat.
+Other,This [E1]action[/E1] will turn on your HVAC system fan for the amount of time you specify in your Nest fan timer setting (default is 15 minutes) and this [E2]trigger[/E2] fires every time the home you specify is set to Home on Nest Thermostat.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] creates a new event in the calendar you specify and This [E2]trigger[/E2] fires every time a new event is added to any of your calendars.
+Other,This [E1]action[/E1] will turn off your SmartThings devices that support switching off and this [E2]trigger[/E2] fires every time your SmartThings device is closed.
+Other,This [E1]action[/E1] will turn off your SmartThings devices that support switching off and this [E2]trigger[/E2] fires every time your SmartThings device's presence is no longer detected.
+Other,This [E1]action[/E1] will turn off your SmartThings devices that support switching off and this [E2]trigger[/E2] fires every time your SmartThings device's presence is detected.
+Other,This [E1]action[/E1] will turn off your SmartThings devices that support switching off and this [E2]trigger[/E2] fires every time your SmartThings device is opened.
+Other,This [E1]action[/E1] will turn off your SmartThings devices that support switching off and this [E2]trigger[/E2] fire every time your SmartThings device is unlocked.
+Other,This [E1]action[/E1] will turn off your SmartThings devices that support switching off and this [E2]trigger[/E2] fires every time your SmartThings device is locked.
+Other,This [E1]action[/E1] will turn off your SmartThings devices that support switching off and this [E2]trigger[/E2] fires every time your SmartThings device senses motion.
+Other,This [E1]action[/E1] will turn off your SmartThings devices that support switching off and this [E2]trigger[/E2] fires every time your SmartThings device detects moisture.
+Other,This [E1]action[/E1] will turn off your SmartThings devices that support switching off and this [E2]trigger[/E2] fires every time your SmartThings device detects temperatures above a value you specify.
+Other,This [E1]action[/E1] will turn off your SmartThings devices that support switching off and this [E2]trigger[/E2] fires every time your SmartThings device detects temperatures below a value you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will toggle a WeMo Insight Switch on or off and this [E2]trigger[/E2] fires every time your WeMo Insight Switch is turned on.
+"Cause-Effect(e1,e2)","This [E1]action[/E1] will upload a new photo, from the given URL, to a Facebook Page album you specify and this [E2]trigger[/E2] fires every time you upload a new photo on your Facebook Page."
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will save a new photo to the album you specify on iOS Photos and this [E2]trigger[/E2] fires every time a new photo is added to your camera roll on iOS Photos.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will save a new item to Instapaper and this [E2]trigger[/E2] fires every time you like a new item in Instapaper.
+Other,This [E1]action[/E1] will sound siren of SpotCam Sense series and this [E2]trigger[/E2] fires every time a motion event is detected on SpotCam.
+Other,This [E1]action[/E1] will sound siren of SpotCam Sense series and this [E2]trigger[/E2] fires every time an audio event is detected on SpotCam.
+Other,This [E1]action[/E1] will sound siren of SpotCam Sense series and this [E2]trigger[/E2] fires every time a temperature event is detected on SpotCam.
+Other,This [E1]action[/E1] will sound siren of SpotCam Sense series and this [E2]trigger[/E2] fires every time a illumination event is detected on SpotCam.
+Other,"This [E1]action[/E1] will prioritize a certain type of online activity on your network, maintaining a fast connection of what's important on TP-Link Router and This [E2]trigger[/E2] fires every time a previously-connected device disconnects from your TP-Link router."
+Other,"This [E1]action[/E1] will prioritize a certain type of online activity on your network, maintaining a fast connection of what's important on TP-Link Router and This [E2]trigger[/E2] fires every time a previously-connected device connects to your TP-Link router."
+Other,"This [E1]action[/E1] will prioritize a certain type of online activity on your network, maintaining a fast connection of what's important on TP-Link Router and This [E2]trigger[/E2] fires every time a new device connects to your TP-Link router."
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will prioritize a device connected to your TP-Link router for a specified duration (1 hour by default) and This [E2]trigger[/E2] fires every time a previously-connected device disconnects from your TP-Link router.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will prioritize a device connected to your TP-Link router for a specified duration (1 hour by default) and This [E2]trigger[/E2] fires every time a previously-connected device connects to your TP-Link router.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will prioritize a device connected to your TP-Link router for a specified duration (1 hour by default) and This [E2]trigger[/E2] fires every time a new device connects to your TP-Link router.
+Other,This [E1]action[/E1] will play a song you specify on your Android device and this [E2]trigger[/E2] fires every time your Android device connects to a WiFi network you specify.
+Other,This [E1]action[/E1] will play a song you specify on your Android device and this [E2]trigger[/E2] fires every time your Android device disconnects from a WiFi network you specify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a normal post on your WordPress blog and this [E2]trigger[/E2] fires every time you publish a new post on your public WordPress blog.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new task in the section you specify on MeisterTask and this [E2]trigger[/E2] fires when a new task is created in the specified project on MeisterTask.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will search for a track you specify and save the first matching result to Your Music on Spotify and this [E2]trigger[/E2] fires every time a new track is added to a playlist you specify on Spotify.
+"Cause-Effect(e1,e2)",This [E1]action[/E1] will create a new plain text status message on your Facebook Page and this [E2]trigger[/E2] fires every time you upload a new photo on your Facebook Page.

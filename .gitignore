@@ -25,3 +25,5 @@
 /data/task_test_recall_per_epoch_1.pkl
 /data/task_test_f1_per_epoch_0.pkl
 /data/task_test_f1_per_epoch_1.pkl
+
+/data/cnn.txt
