@@ -214,19 +214,6 @@ def train_and_fit(args):
             'scheduler': scheduler.state_dict(), \
             'amp': amp.state_dict() if amp is not None else amp
         }, os.path.join("./data/", "task_test_checkpoint_%d.pth.tar" % args.model_no))
-        
-        # if (epoch % 1) == 0:
-        #     save_as_pickle("task_test_losses_per_epoch_%d.pkl" % args.model_no, losses_per_epoch)
-        #     save_as_pickle("task_train_accuracy_per_epoch_%d.pkl" % args.model_no, accuracy_per_epoch)
-        #     save_as_pickle("task_test_f1_per_epoch_%d.pkl" % args.model_no, test_f1_per_epoch)
-        #     torch.save({
-        #             'epoch': epoch + 1,\
-        #             'state_dict': net.state_dict(),\
-        #             'best_acc': accuracy_per_epoch[-1],\
-        #             'optimizer' : optimizer.state_dict(),\
-        #             'scheduler' : scheduler.state_dict(),\
-        #             'amp': amp.state_dict() if amp is not None else amp
-        #         }, os.path.join("./data/" , "task_test_checkpoint_%d.pth.tar" % args.model_no))
     
     logger.info("Finished Training!")
     fig = plt.figure(figsize=(20,20))
