@@ -27,8 +27,8 @@ def main():
                                                                                     "'albert-large-v2', For BioBERT: "
                                                                                     "'bert-base-uncased' ("
                                                                                     "biobert_v1.1_pubmed)")
-    parser.add_argument("--train", type=int, default=1, help="0: Don't train, 1: train")
-    parser.add_argument("--infer", type=int, default=1, help="0: Don't infer, 1: Infer")
+    parser.add_argument("--train", type=int, default=0, help="0: Don't train, 1: train")
+    parser.add_argument("--infer", type=int, default=0, help="0: Don't infer, 1: Infer")
     parser.add_argument("--input_dataset", type=str, help="Input dataset from which infer relations")
     parser.add_argument("--output_dataset", type=str, help="Output dataset containing the inferred relations")
 

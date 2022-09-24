@@ -1,3 +1,4 @@
+import random
 import pandas as pd
 from argparse import ArgumentParser
 
@@ -21,6 +22,26 @@ def format_desc(desc, channel):
     return formatted
 
 
+def create_rel(action_desc, action_channel, trigger_desc, trigger_channel, relations):
+    formatted_action = format_desc(action_desc, action_channel)
+    formatted_trigger = format_desc(trigger_desc, trigger_channel)
+    relation = f"{formatted_action} and {formatted_trigger}."
+
+    if relation.count("[E1]") != 1 or relation.count("[E2]") != 1:
+        return None
+
+    already_added = False
+    for found_rel in relations:
+        if relation == found_rel[0]:
+            already_added = True
+            break
+
+    if not already_added:
+        return relation
+    else:
+        return None
+
+
 def main():
     parser = ArgumentParser()
     parser.add_argument("--input_file", type=str, default="./data/recipes/recipes_all.csv", help="Input dataset")
@@ -29,36 +50,50 @@ def main():
                                                                    "generate relations")
     parser.add_argument("--end_index", type=int, default=1000, help="End index from input dataset from which generate "
                                                                     "relations")
+    parser.add_argument("--shared_channel", type=int, default=1,
+                        help="(1: ACTION AND TRIGGER MUST SHARE THE CHANNEL, 0: "
+                             "ACTION AND TRIGGER DON'T NECESSARILY HAVE TO SHARE THE CHANNEL)")
+    parser.add_argument("--max_rel_number", type=int, default=200,
+                        help="MAX NUMBER OF RELATIONS THAT WILL BE FOUND, "
+                             "IT WILL BE USED ONLY WHEN SHARED CHANNEL IS 0, DEFAULT IS 200")
 
     args = parser.parse_args()
 
     recipes_all = pd.read_csv(args.input_file)
     relations = list()
 
-    for i in range(args.start_index, args.end_index):
-        action_desc = recipes_all["actionDesc"][i]
-        action_channel = recipes_all["actionChannelTitle"][i]
+    if args.shared_channel == 0:
+        while len(relations) < args.max_rel_number:
+            action_index = random.randint(args.start_index, args.end_index)
+            trigger_index = random.randint(args.start_index, args.end_index)
 
-        for j in range(args.start_index, args.end_index):
-            trigger_desc = recipes_all["triggerDesc"][j]
-            trigger_channel = recipes_all["triggerChannelTitle"][j]
+            action_desc = recipes_all["actionDesc"][action_index]
+            action_channel = recipes_all["actionChannelTitle"][action_index]
+            trigger_desc = recipes_all["triggerDesc"][trigger_index]
+            trigger_channel = recipes_all["triggerChannelTitle"][trigger_index]
 
-            if action_channel == trigger_channel:
-                formatted_action = format_desc(action_desc, action_channel)
-                formatted_trigger = format_desc(trigger_desc, trigger_channel)
-                relation = f"{formatted_action} and {formatted_trigger}."
+            relation = create_rel(action_desc, action_channel, trigger_desc, trigger_channel, relations)
 
-                if "[E1]" not in relation or "[E2]" not in relation:
+            if relation is not None:
+                relations.append([relation])
+                print(f"{action_index}-{trigger_index}")
+
+    if args.shared_channel == 1:
+        for i in range(args.start_index, args.end_index):
+            action_desc = recipes_all["actionDesc"][i]
+            action_channel = recipes_all["actionChannelTitle"][i]
+
+            for j in range(args.start_index, args.end_index):
+                trigger_desc = recipes_all["triggerDesc"][j]
+                trigger_channel = recipes_all["triggerChannelTitle"][j]
+
+                if action_channel != trigger_channel:
                     continue
 
-                already_added = False
-                for found_rel in relations:
-                    if relation == found_rel[0]:
-                        already_added = True
-                        break
+                relation = create_rel(action_desc, action_channel, trigger_desc, trigger_channel, relations)
 
-                if not already_added:
-                    relations.append([f"{formatted_action} and {formatted_trigger}."])
+                if relation is not None:
+                    relations.append([relation])
                     print(f"{i}-{j}")
 
     recipes_rel = pd.DataFrame(relations, columns=["desc"])

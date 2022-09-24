@@ -56,13 +56,18 @@ To do this, you must first generate a file containing some phrases in the form: 
         [--input_file DATASET OF TRIGGER-ACTION RULES, CSV FORMAT]
         [--output_file OUTPUT DATASET, CSV FORMAT]
         [--start_index START INDEX OF INPUT FILE FROM WHICH GENERATE THE PHRASES]
-        [--end-index END INDEX OF INPUT FILE FROM WHICH GENERATE THE PHRASES]
-
+        [--end_index END INDEX OF INPUT FILE FROM WHICH GENERATE THE PHRASES]
+        [--shared_channel SHARED_CHANNEL (1: ACTION AND TRIGGER MUST SHARE THE CHANNEL, 0: ACTION AND TRIGGER DON'T NECESSARILY HAVE TO SHARE THE CHANNEL)]
+        [--max_rel_number MAX_REL_NUMBER (MAX NUMBER OF RELATIONS THAT WILL BE FOUND, IT WILL BE USED ONLY WHEN SHARED CHANNEL IS 0, DEFAULT IS 200)]
 ### Inference
 
 Once generated the file as described previously, you can infer cause-effect relations running the script *infer_relations.py*.
 
     infer_relations.py [-h]
+    [--model_no MODEL_NO (0: BERT ; 1: ALBERT ; 2: BioBERT)]
+    [--model_size MODEL_SIZE (BERT: 'bert-base-uncased', 'bert-large-uncased';   
+				ALBERT: 'albert-base-v2', 'albert-large-v2';   
+				BioBERT: 'bert-base-uncased' (biobert_v1.1_pubmed))]
     [--input_dataset THE FILE GENERATED IN THE PREVIOUS STEP]
     [--output_dataset THE FILE WHERE THE INFERRED RELATIONS WILL BE SAVED]
 
