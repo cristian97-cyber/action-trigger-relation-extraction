@@ -3,42 +3,28 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\data\recipes\blank\recipes_rel_0-1000.csv">
+        <entry key="C:\Users\crist\Downloads\recipes_test.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\data\recipes\blank\recipes_rel_0-1000_ALL.csv">
+        <entry key="\data\recipes\blank\recipes_test.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\data\recipes\blank\recipes_rel_0-1000_COPY.csv">
+        <entry key="\data\recipes\labelled\recipes_test.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\data\recipes\blank\recipes_rel_20000-22000.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\recipes\labelled\recipes_rel_0-10000.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\recipes\labelled\recipes_rel_10000-20000.csv">
+        <entry key="\data\recipes\labelled\recipes_train.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -52,28 +38,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\results\recipes_all_data_0-20000\ALBERT\albert-base-v2\recipes_rel_0-1000.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\results\recipes_all_data_0-20000\BERT\bert-base-uncased\recipes_rel_20000-22000.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\results\recipes_all_data_0-20000\BERT\bert-large-uncased\recipes_rel_0-1000.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\results\recipes_all_data_0-20000\BERT\bert-large-uncased\recipes_rel_20000-22000.csv">
+        <entry key="\results\ALBERT\albert-base-v2\recipes_test.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

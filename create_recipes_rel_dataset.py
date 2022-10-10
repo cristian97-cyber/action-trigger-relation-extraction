@@ -3,28 +3,17 @@ import pandas as pd
 from argparse import ArgumentParser
 
 
-def format_desc(desc, channel):
+def format_desc(desc):
     formatted = desc.split(".")[0]
-
-    formatted = formatted.replace("This Action", "This action").replace("This Trigger", "this trigger")
+    formatted = formatted.replace("Action", "action").replace("Trigger", "trigger")
     formatted = formatted.replace("action", "[E1]action[/E1]").replace("trigger", "[E2]trigger[/E2]")
-
-    channel_words = channel.split(" ")
-    found = False
-    for word in channel_words:
-        if word.lower() in formatted.lower():
-            found = True
-            break
-
-    if not found:
-        formatted += f" on {channel}"
 
     return formatted
 
 
-def create_rel(action_desc, action_channel, trigger_desc, trigger_channel, relations):
-    formatted_action = format_desc(action_desc, action_channel)
-    formatted_trigger = format_desc(trigger_desc, trigger_channel)
+def create_rel(action_desc, trigger_desc, relations):
+    formatted_action = format_desc(action_desc)
+    formatted_trigger = format_desc(trigger_desc)
     relation = f"{formatted_action} and {formatted_trigger}."
 
     if relation.count("[E1]") != 1 or relation.count("[E2]") != 1:
@@ -68,11 +57,9 @@ def main():
             trigger_index = random.randint(args.start_index, args.end_index)
 
             action_desc = recipes_all["actionDesc"][action_index]
-            action_channel = recipes_all["actionChannelTitle"][action_index]
             trigger_desc = recipes_all["triggerDesc"][trigger_index]
-            trigger_channel = recipes_all["triggerChannelTitle"][trigger_index]
 
-            relation = create_rel(action_desc, action_channel, trigger_desc, trigger_channel, relations)
+            relation = create_rel(action_desc, trigger_desc, relations)
 
             if relation is not None:
                 relations.append([relation])
@@ -90,7 +77,7 @@ def main():
                 if action_channel != trigger_channel:
                     continue
 
-                relation = create_rel(action_desc, action_channel, trigger_desc, trigger_channel, relations)
+                relation = create_rel(action_desc, trigger_desc, relations)
 
                 if relation is not None:
                     relations.append([relation])

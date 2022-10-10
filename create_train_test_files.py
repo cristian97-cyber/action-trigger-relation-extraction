@@ -22,9 +22,17 @@ def write_output_file(filename, output):
 
 def balance_data(dataset):
     data = dataset.values.tolist()
-    cause_effects = others = 0
+    new_data = list()
+    found_descs = list()
 
     for item in data:
+        if item[1] not in found_descs:
+            new_data.append(item)
+            found_descs.append(item[1])
+
+    cause_effects = others = 0
+
+    for item in new_data:
         if item[2] == "Cause-Effect(e1,e2)":
             cause_effects += 1
         else:
@@ -32,9 +40,9 @@ def balance_data(dataset):
 
     while cause_effects < others:
         i = 0
-        while i < len(data):
-            if data[i][2] == "Other":
-                data.pop(i)
+        while i < len(new_data):
+            if new_data[i][2] == "Other":
+                new_data.pop(i)
                 others -= 1
             else:
                 i += 1
@@ -42,10 +50,10 @@ def balance_data(dataset):
             if cause_effects >= others:
                 break
 
-    for i in range(len(data)):
-        data[i] = [data[i][1], data[i][2]]
+    for i in range(len(new_data)):
+        new_data[i] = [new_data[i][1], new_data[i][2]]
 
-    return pd.DataFrame(data, columns=["desc", "rel"])
+    return pd.DataFrame(new_data, columns=["desc", "rel"])
 
 
 def main():
@@ -64,8 +72,6 @@ def main():
     train_recipes = balance_data(train_recipes)
     train_recipes = train_recipes.sample(frac=1, random_state=1).reset_index()
 
-    test_recipes = test_recipes.sample(frac=1, random_state=1).reset_index()
-    test_recipes = balance_data(test_recipes)
     test_recipes = test_recipes.sample(frac=1, random_state=1).reset_index()
 
     train_output = get_output(train_recipes, len(train_recipes["desc"]))

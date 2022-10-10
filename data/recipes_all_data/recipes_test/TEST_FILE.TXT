@@ -1,0 +1,800 @@
+1081	"This <e1>action</e1> will post a new tweet to your Twitter account with a linked pic and This <e2>trigger</e2> fires every time you post a new tweet."
+Cause-Effect(e1,e2)
+Comment:
+
+1082	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> fires when you say “Ok Google” to the Google Assistant followed by a phrase you choose."
+Other
+Comment:
+
+1083	"This <e1>action</e1> will send you an HTML based email and This <e2>trigger</e2> fires every time you tag an item with a specific tag in Pocket."
+Other
+Comment:
+
+1084	"This <e1>action</e1> will add an event to your Google Calendar and This <e2>trigger</e2> fires when there is a new membership for your channel."
+Other
+Comment:
+
+1085	"This <e1>action</e1> will upload a new photo, from the given URL, to a Facebook Page album you specify and This <e2>trigger</e2> fires when you send a text message with a key phrase to the @IFTTT bot on Telegram."
+Other
+Comment:
+
+1086	"This <e1>action</e1> will send an SMS from your Android device to any phone number you specify and This <e2>trigger</e2> fires when a Wyze Cam detects a smoke alarm."
+Other
+Comment:
+
+1087	"This <e1>action</e1> will upload a new photo, from the given URL, to a Facebook Page album you specify and This <e2>trigger</e2> fires every time there is a new popular article or blog post on The New York Times."
+Other
+Comment:
+
+1088	"This <e1>action</e1> will execute the indicated scene and This <e2>trigger</e2> fires every time you share any new photo on Instagram."
+Other
+Comment:
+
+1089	"This <e1>action</e1> will change your lights to a specified color and This <e2>trigger</e2> fires every time you place a phone call on your Android device."
+Other
+Comment:
+
+1090	"This <e1>action</e1> will play the text to speech in the hearing aid, if the hearing aid is connected to an iPhone and This <e2>trigger</e2> fires for every link you tweet."
+Other
+Comment:
+
+1091	"This <e1>action</e1> will change your abode system to the selected system mode and This <e2>trigger</e2> fires when a user sends a message with the /ifttt command and a key phrase to the source group."
+Other
+Comment:
+
+1092	"This <e1>action</e1> will append to a note as determined by its title and notebook and This <e2>trigger</e2> fires every time you add a new reminder."
+Other
+Comment:
+
+1093	"This <e1>action</e1> will set your Aura to Guardian scene and This <e2>trigger</e2> fires every time a song is played on Amazon Prime Music."
+Other
+Comment:
+
+1094	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and Send IFTTT any email at <e2>trigger</e2>@applet."
+Other
+Comment:
+
+1095	"This <e1>action</e1> will set the heating mode to schedule and This <e2>trigger</e2> fires every time the temperature rises above a threshold you specify."
+Cause-Effect(e1,e2)
+Comment:
+
+1096	"This <e1>action</e1> will set your Aura to Guardian scene and This <e2>trigger</e2> fires every time a new user starts following you."
+Other
+Comment:
+
+1097	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> fires every time you exit an area you specify."
+Other
+Comment:
+
+1098	"This <e1>action</e1> will create a new plain text status message on your Facebook Page and This <e2>trigger</e2> fires only on specific days of the week at the time you provide."
+Other
+Comment:
+
+1099	"This <e1>action</e1> will search for a track and add the first result to a playlist you specify and This <e2>trigger</e2> fires every time you create a new plain text status message on Facebook with a specific hashtag."
+Other
+Comment:
+
+1100	"This <e1>action</e1> will create a new task in the project you choose and This <e2>trigger</e2> fires every time your Android device connects to a WiFi network you specify."
+Other
+Comment:
+
+1101	"This <e1>action</e1> will add a new item to your Reading List in Safari and This <e2>trigger</e2> monitors changes in tomorrow’s forecasted weather condition."
+Other
+Comment:
+
+1102	"This <e1>action</e1> will change the color of your hue lights and This <e2>trigger</e2> fires every time you share any new photo on Instagram."
+Other
+Comment:
+
+1103	"This <e1>action</e1> will send you an HTML based email and This <e2>trigger</e2> fires when a new message is posted in a public channel where you are an admin."
+Other
+Comment:
+
+1104	"This <e1>action</e1> will create a new task in the project you choose and This <e2>trigger</e2> fires every time you are tagged you in a new photo."
+Other
+Comment:
+
+1105	"This <e1>action</e1> will create a new text file at the path you specify and This <e2>trigger</e2> fires every time a new item is added to the feed you specify."
+Other
+Comment:
+
+1106	"This <e1>action</e1> will download a file at a given URL and add it to Box at the path you specify and This <e2>trigger</e2> fires every time a new item is added to the feed you specify."
+Other
+Comment:
+
+1107	"This <e1>action</e1> will add a single row to the bottom of the first worksheet of a spreadsheet you specify and This <e2>trigger</e2> fires every time a new file is added to the Google Drive folder you specify."
+Other
+Comment:
+
+1108	"This <e1>action</e1> will create a new plain text status message on your Facebook Page and This <e2>trigger</e2> fires every time you share any new photo on Instagram."
+Other
+Comment:
+
+1109	"This <e1>action</e1> will submit a new link on reddit and This <e2>trigger</e2> fires every time a new tweet matches your search query."
+Other
+Comment:
+
+1110	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> fires when a KNX device or binary switch is turned off."
+Other
+Comment:
+
+1111	"This <e1>action</e1> will post a new tweet to your Twitter account with a linked pic and This <e2>trigger</e2> fires every single day at a specific time set by you."
+Other
+Comment:
+
+1112	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> fires every time you start a new timer in Harvest."
+Other
+Comment:
+
+1113	"This <e1>action</e1> will create a new link post on your Facebook Page wall and This <e2>trigger</e2> fires every time you press the button."
+Other
+Comment:
+
+1114	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> fires once an hour at :00, :15, :30, or :45 minutes past the hour."
+Other
+Comment:
+
+1115	"This <e1>action</e1> will create a new text note in a folder with tags you specify and Send IFTTT any email at <e2>trigger</e2>@applet."
+Other
+Comment:
+
+1116	"This <e1>action</e1> will turn a WeMo Switch on and This <e2>trigger</e2> fires every time you exit an area you specify."
+Other
+Comment:
+
+1117	"This <e1>action</e1> will turn off the selected light(s) and This <e2>trigger</e2> fires when a selected member arrives."
+Other
+Comment:
+
+1118	"This <e1>action</e1> will set your Aura to Guardian scene and This <e2>trigger</e2> fires every time a new post submitted on reddit matches a search query you specify."
+Other
+Comment:
+
+1119	"This <e1>action</e1> will push a new note to your Pushbullet inbox and This <e2>trigger</e2> recommends a new Applet every day at the time you specify."
+Other
+Comment:
+
+1120	"This <e1>action</e1> will turn on a device and This <e2>trigger</e2> fires every time a new item is added to the feed you specify."
+Other
+Comment:
+
+1121	"This <e1>action</e1> will create a normal post on your WordPress blog and This <e2>trigger</e2> fires every time somebody rings your Ring Doorbell."
+Other
+Comment:
+
+1122	"This <e1>action</e1> will post a new tweet to your Twitter account and This <e2>trigger</e2> fires every time you create a new plain text status message on Facebook."
+Other
+Comment:
+
+1123	"This <e1>action</e1> will briefly turn your hue lights off then back on and This <e2>trigger</e2> fires when the room temperature rises above a user-defined value."
+Other
+Comment:
+
+1124	"This <e1>action</e1> will send an email to up to twenty recipients from your Gmail account and This <e2>trigger</e2> fires every time a new track is uploaded to SoundCloud that matches the search query you specify."
+Other
+Comment:
+
+1125	"This <e1>action</e1> will send you an HTML based email and This <e2>trigger</e2> fires when the scene is changed to the selected scene."
+Other
+Comment:
+
+1126	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> fires when a selected member arrives."
+Other
+Comment:
+
+1127	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> fires if Aura detects motion when set to the Away scene."
+Other
+Comment:
+
+1128	"This <e1>action</e1> will briefly turn your hue lights off then back on and This <e2>trigger</e2> fires when you say “Ok Google” to the Google Assistant followed by a phrase like “Post a tweet saying ‘New high score."
+Other
+Comment:
+
+1129	"This <e1>action</e1> will create a new issue for the repository you specify and This <e2>trigger</e2> fires every time a new item is added to the feed you specify."
+Other
+Comment:
+
+1130	"This <e1>action</e1> will send you an HTML based email and Send IFTTT an email at <e2>trigger</e2>@applet."
+Other
+Comment:
+
+1131	"This <e1>action</e1> will send a photo to a Telegram chat and This <e2>trigger</e2> fires every time a new item is added to the feed you specify."
+Other
+Comment:
+
+1132	"This <e1>action</e1> will create a new task in the project you choose and This <e2>trigger</e2> fires only on specific days of the week at the time you provide."
+Other
+Comment:
+
+1133	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> fires only on specific days of the week at the time you provide."
+Other
+Comment:
+
+1134	"This <e1>action</e1> will call your phone number and say a message and This <e2>trigger</e2> fires every time you add any new contact."
+Other
+Comment:
+
+1135	"This <e1>action</e1> will create a new note in the notebook you specify and This <e2>trigger</e2> fires when an alarm of your RF Bridge is activated."
+Other
+Comment:
+
+1136	"This <e1>action</e1> will post a new tweet to your Twitter account and This <e2>trigger</e2> fires when the room temperature satisfies a condition with a threshold."
+Other
+Comment:
+
+1137	"This <e1>action</e1> will post a new tweet to your Twitter account and This <e2>trigger</e2> fires when an interesting event comes from a particular device."
+Other
+Comment:
+
+1138	"This <e1>action</e1> will push a new note to your Pushbullet inbox and This <e2>trigger</e2> fires every time you upload a new public video to YouTube."
+Other
+Comment:
+
+1139	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> fires every time the IFTTT blog posts something tagged 'Updates."
+Other
+Comment:
+
+1140	"This <e1>action</e1> will send you an HTML based email and This <e2>trigger</e2> fires every time your WeMo Motion sensor detects new motion."
+Other
+Comment:
+
+1141	"This <e1>action</e1> will post a new tweet to your Twitter account with a linked pic and This <e2>trigger</e2> fires every time the you ask Alexa what's on your Shopping List."
+Other
+Comment:
+
+1142	"This <e1>action</e1> will set your Aura to Guardian scene and This <e2>trigger</e2> fires every time you share any new photo on Instagram."
+Other
+Comment:
+
+1143	"This <e1>action</e1> will call your phone number and say a message and This <e2>trigger</e2> fires every time you miss a phone call on your Android device."
+Cause-Effect(e1,e2)
+Comment:
+
+1144	"This <e1>action</e1> will upload a new public photo, from a given URL to an image, to your Flickr photostream and This <e2>trigger</e2> fires every time any file is saved in the folder you specify."
+Other
+Comment:
+
+1145	"This <e1>action</e1> will push a new link to your Pushbullet inbox and This <e2>trigger</e2> fires every time your SmartThings device is switched on."
+Other
+Comment:
+
+1146	"This <e1>action</e1> will create a new note in the notebook you specify and This <e2>trigger</e2> fires when the scene is changed to the selected scene."
+Other
+Comment:
+
+1147	"This <e1>action</e1> will set your Aura to Guardian scene and This <e2>trigger</e2> fires every time the Twitter user you specify tweets."
+Other
+Comment:
+
+1148	"This <e1>action</e1> will briefly turn your hue lights off then back on and This <e2>trigger</e2> fires every time a new user starts following you."
+Other
+Comment:
+
+1149	"This <e1>action</e1> will turn on your hue lights and This <e2>trigger</e2> fires every time you upload a new public video to YouTube."
+Other
+Comment:
+
+1150	"This <e1>action</e1> will send a text message to a Telegram chat and This <e2>trigger</e2> recommends a new Applet every day at the time you specify."
+Other
+Comment:
+
+1151	"This <e1>action</e1> will add a new reminder to the list you specify and This <e2>trigger</e2> fires every single day at a specific time set by you."
+Other
+Comment:
+
+1152	"This <e1>action</e1> will set your Aura to Away scene and This <e2>trigger</e2> fires every single day at a specific time set by you."
+Other
+Comment:
+
+1153	"This <e1>action</e1> will turn on the Pivot Power Genius outlet you specify and This <e2>trigger</e2> fires when a selected member arrives."
+Other
+Comment:
+
+1154	"This <e1>action</e1> will post a new tweet to your Twitter account with a linked pic and This <e2>trigger</e2> fires if Aura detects motion."
+Other
+Comment:
+
+1155	"This <e1>action</e1> will send an event to MESH app and This <e2>trigger</e2> fires every time a new Google Contact is created."
+Other
+Comment:
+
+1156	"This <e1>action</e1> will post a new tweet to your Twitter account and This <e2>trigger</e2> fires every time the Twitter user you specify tweets."
+Cause-Effect(e1,e2)
+Comment:
+
+1157	"This <e1>action</e1> will create a new text file at the path you specify and This <e2>trigger</e2> fires every time you post a new tweet."
+Other
+Comment:
+
+1158	"This <e1>action</e1> will send you an HTML based email and This <e2>trigger</e2> fires every time you publish a new post on your public WordPress blog."
+Other
+Comment:
+
+1159	"This <e1>action</e1> will add a single row to the bottom of the first worksheet of a spreadsheet you specify and This <e2>trigger</e2> fires when a Wyze Cam detects a CO alarm."
+Other
+Comment:
+
+1160	"This <e1>action</e1> will add a single row to the bottom of the first worksheet of a spreadsheet you specify and This <e2>trigger</e2> fires every single day at a specific time set by you."
+Other
+Comment:
+
+1161	"This <e1>action</e1> will post a message to LINE and This <e2>trigger</e2> fires every time any issue is closed in a repository you own or collaborate on."
+Other
+Comment:
+
+1162	"This <e1>action</e1> will add a single row to the bottom of the first worksheet of a spreadsheet you specify and This <e2>trigger</e2> fires every time you receive an SMS on your Android device from a phone number you specify."
+Other
+Comment:
+
+1163	"This <e1>action</e1> will create a new note in the notebook you specify and This <e2>trigger</e2> fires every time you create a new link post on Facebook."
+Other
+Comment:
+
+1164	"This <e1>action</e1> will change the color of your hue lights and This <e2>trigger</e2> fires every time you favorite an item in Pocket."
+Other
+Comment:
+
+1165	"This <e1>action</e1> will set your Aura to Guardian scene and This <e2>trigger</e2> fires within 15 minutes of the sunrise in your location."
+Other
+Comment:
+
+1166	"This <e1>action</e1> will post a new tweet to your Twitter account and This <e2>trigger</e2> fires every time you add a new post to Buffer or post now via Buffer."
+Other
+Comment:
+
+1167	"This <e1>action</e1> will create a new note in the notebook you specify and This <e2>trigger</e2>s fires every time the child lock has deactivated."
+Other
+Comment:
+
+1168	"This <e1>action</e1> will transfer money toward one of your goals and This <e2>trigger</e2> fires every time you stop a new timer in Harvest."
+Other
+Comment:
+
+1169	"This <e1>action</e1> will upload a new photo, from the given URL, to a Facebook Page album you specify and This <e2>trigger</e2> fires every time a new photo is taken on your Android device."
+Other
+Comment:
+
+1170	"This <e1>action</e1> will call your device with the IFTTT app installed and speak a message provided by your Applet and This <e2>trigger</e2> retrieves today's current exchange rate for any two currencies at the time you specify."
+Other
+Comment:
+
+1171	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> fires every time a new article is added to your Saved For Later queue."
+Other
+Comment:
+
+1172	"This <e1>action</e1> will close the door you specify and This <e2>trigger</e2> fires every time you create a new project on Harvest."
+Other
+Comment:
+
+1173	"This <e1>action</e1> will send you an HTML based email and This <e2>trigger</e2> fires within 15 minutes of the sunrise in your location."
+Other
+Comment:
+
+1174	"This <e1>action</e1> will add a to-do item to an existing Notion To-Do List template and This <e2>trigger</e2> fires only on specific days of the week at the time you provide."
+Other
+Comment:
+
+1175	"This <e1>action</e1> will set your Aura to Guardian scene and This <e2>trigger</e2> fires every time a new tweet matches your search query."
+Other
+Comment:
+
+1176	"This <e1>action</e1> will update the wallpaper on your Android device from the image URL you specify and This <e2>trigger</e2> fires every time you publish a new post on your public WordPress blog."
+Other
+Comment:
+
+1177	"This <e1>action</e1> will close the garage door you specify and This <e2>trigger</e2> fires every time a new item is added to the feed you specify."
+Other
+Comment:
+
+1178	"This <e1>action</e1> will add a new reminder to the list you specify and This <e2>trigger</e2> fires every time you enter an area you specify."
+Other
+Comment:
+
+1179	"This <e1>action</e1> will upload a new photo, from the given URL, to a Facebook Page album you specify and This <e2>trigger</e2> fires every time you press the button."
+Other
+Comment:
+
+1180	"This <e1>action</e1> will post a message to the channel you choose in Slack and This <e2>trigger</e2> monitors changes in tomorrow’s forecasted weather condition."
+Other
+Comment:
+
+1181	"This <e1>action</e1> will turn on the device/group of your choosing and This <e2>trigger</e2> fires every time you enter an area you specify."
+Other
+Comment:
+
+1182	"This <e1>action</e1> will add an event to your Google Calendar and This <e2>trigger</e2> fires every time you exit an area you specify."
+Other
+Comment:
+
+1183	"This <e1>action</e1> will send an SMS from your Android device to any phone number you specify and This <e2>trigger</e2> fires every time a new item is added to the feed you specify."
+Other
+Comment:
+
+1184	"This <e1>action</e1> will create a normal post on your WordPress blog and This <e2>trigger</e2> fires every time any task is completed in your Toodledo list."
+Other
+Comment:
+
+1185	"This <e1>action</e1> will create a new note with an image attachment in the notebook you specify and This <e2>trigger</e2> fires every time you add an item to your To Do List."
+Other
+Comment:
+
+1186	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> fires every time you enter an area you specify."
+Other
+Comment:
+
+1187	"This <e1>action</e1> will set your Aura to Guardian scene and This <e2>trigger</e2> fires every time you receive an SMS on your Android device from a phone number you specify."
+Other
+Comment:
+
+1188	"This <e1>action</e1> will set your Aura to Away scene and This <e2>trigger</e2> fires every time a new photo is taken on your Android device."
+Other
+Comment:
+
+1189	"This <e1>action</e1> will send you an HTML based email and This <e2>trigger</e2> fires every time a new item is added to the feed you specify."
+Other
+Comment:
+
+1190	"This <e1>action</e1> will post a new tweet to your Twitter account and This <e2>trigger</e2> fires within 15 minutes of the sunset in your location."
+Other
+Comment:
+
+1191	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> fires every day after the markets close and a stock’s closing price drops below an amount you specify."
+Other
+Comment:
+
+1192	"This <e1>action</e1> will create a new task in the project you choose and This <e2>trigger</e2> fires when your device changes states (i."
+Other
+Comment:
+
+1193	"This <e1>action</e1> will turn your heating off and This <e2>trigger</e2> fires every time a FocusTime session is started."
+Other
+Comment:
+
+1194	"This <e1>action</e1> will send you an HTML based email and This <e2>trigger</e2> fires every single day at a specific time set by you."
+Other
+Comment:
+
+1195	"This <e1>action</e1> will post a message to LINE and This <e2>trigger</e2> fires every time a new item is added to the feed you specify."
+Other
+Comment:
+
+1196	"This <e1>action</e1> will turn your eWeLink Support 2-Channel Switch on or off and This <e2>trigger</e2> fires if Aura detects motion when set to the Away scene."
+Other
+Comment:
+
+1197	"This <e1>action</e1> will set your Aura to Home scene and This <e2>trigger</e2> fires when you say “Ok Google” to the Google Assistant followed by a phrase you choose."
+Other
+Comment:
+
+1198	"This <e1>action</e1> will add a new item to your Pocket queue and This <e2>trigger</e2> fires every time a new item is added to the feed you specify."
+Other
+Comment:
+
+1199	"This <e1>action</e1> will send an SMS from your Android device to any phone number you specify and This <e2>trigger</e2> retrieves today's current weather report within 5 minutes of the time you specify."
+Other
+Comment:
+
+1200	"This <e1>action</e1> will set your Aura to Home scene and This <e2>trigger</e2> fires evert time the Nest Protect you specify detects low batteries."
+Other
+Comment:
+
+1201	"This <e1>action</e1> will turn on the device/group of your choosing and This <e2>trigger</e2> fires every time a card is added to a specified list."
+Other
+Comment:
+
+1202	"This <e1>action</e1> will set your Aura to Guardian scene and This <e2>trigger</e2> fires every time you add any new contact."
+Other
+Comment:
+
+1203	"This <e1>action</e1> will start your robot and This <e2>trigger</e2> fires every time a new item is added to the feed you specify."
+Other
+Comment:
+
+1204	"This <e1>action</e1> will turn off your hue lights and This <e2>trigger</e2> fires every time the temperature rises above a threshold you specify."
+Other
+Comment:
+
+1205	"This <e1>action</e1> will send you an HTML based email and A <e2>trigger</e2> that monitors changes in your Facebook profile information."
+Other
+Comment:
+
+1206	"This <e1>action</e1> will post a new tweet to your Twitter account and This <e2>trigger</e2> fires every time your alarm goes off."
+Other
+Comment:
+
+1207	"This <e1>action</e1> will send you an HTML based email and This <e2>trigger</e2> monitors changes in the current weather condition."
+Other
+Comment:
+
+1208	"This <e1>action</e1> will set your Aura to Guardian scene and This <e2>trigger</e2> fires every time you upload a new public video to YouTube."
+Other
+Comment:
+
+1209	"This <e1>action</e1> will post a new tweet to your Twitter account with a linked pic and This <e2>trigger</e2> fires every time you like a video on YouTube."
+Other
+Comment:
+
+1210	"This <e1>action</e1> will turn on the selected light(s) and This <e2>trigger</e2> fires if Aura detects motion when set to Night scene."
+Other
+Comment:
+
+1211	"This <e1>action</e1> will post a new tweet to your Twitter account and This <e2>trigger</e2> recommends a new Applet every day at the time you specify."
+Other
+Comment:
+
+1212	"This <e1>action</e1> will put the Rachio in rain delay mode for a certain period of time and This <e2>trigger</e2> fires once a year on the date and time you specify."
+Other
+Comment:
+
+1213	"This <e1>action</e1> will send you an HTML based email and This <e2>trigger</e2> fires only on specific days of the week at the time you provide."
+Other
+Comment:
+
+1214	"This <e1>action</e1> will create a new task in the project you choose and This <e2>trigger</e2> fires when you say “Ok Google” to the Google Assistant followed by a phrase you choose."
+Other
+Comment:
+
+1215	"This <e1>action</e1> will download a file at a given URL and add it to Google Drive at the path you specify and This <e2>trigger</e2> fires every time you complete a new activity on Strava."
+Other
+Comment:
+
+1216	"This <e1>action</e1> will post a new tweet to your Twitter account and This <e2>trigger</e2> fires every time you exit an area you specify."
+Other
+Comment:
+
+1217	"This <e1>action</e1> will add a new item to your Pocket queue and This <e2>trigger</e2> fires every time you add an item to your To Do List."
+Other
+Comment:
+
+1218	"This <e1>action</e1> will send you an HTML based email and This <e2>trigger</e2> fires every time you start a new timer in Harvest."
+Other
+Comment:
+
+1219	"This <e1>action</e1> will add a single row to the bottom of the first worksheet of a spreadsheet you specify and This <e2>trigger</e2> fires when a new task is created in the specified section."
+Other
+Comment:
+
+1220	"This <e1>action</e1> will post a new tweet to your Twitter account and This <e2>trigger</e2> fires every time a new user starts following you."
+Other
+Comment:
+
+1221	"This <e1>action</e1> will send you an HTML based email and This <e2>trigger</e2> fires every time a new post becomes one of the ten top posts in the subreddit you specify."
+Other
+Comment:
+
+1222	"This <e1>action</e1> will add a single row to the bottom of the first worksheet of a spreadsheet you specify and This <e2>trigger</e2> fires every time a new item is added to the feed you specify."
+Other
+Comment:
+
+1223	"This <e1>action</e1> will create a new note in the notebook you specify and This <e2>trigger</e2> fires when a selected member arrives."
+Other
+Comment:
+
+1224	"This <e1>action</e1> will create a new Journal entry in the Journal you specify and This <e2>trigger</e2> fires every time you enter or exit an area you specify."
+Other
+Comment:
+
+1225	"This <e1>action</e1> will create a detailed event in your Google Calendar and This <e2>trigger</e2> fires every time the Twitter user you specify tweets."
+Other
+Comment:
+
+1226	"This <e1>action</e1> will post a message to the channel you choose in Slack and This <e2>trigger</e2> fires every time a task is marked as completed with a label you specify."
+Other
+Comment:
+
+1227	"This <e1>action</e1> will post a new tweet to your Twitter account with a linked pic and This <e2>trigger</e2> fires when your mower's status changes."
+Other
+Comment:
+
+1228	"This <e1>action</e1> will set the ringtone volume of your Android device and This <e2>trigger</e2> fires every time you start a new timer in Harvest."
+Other
+Comment:
+
+1229	"This <e1>action</e1> will create a new Google document at the path you specify and This <e2>trigger</e2> fires every time you enter an area you specify."
+Other
+Comment:
+
+1230	"This <e1>action</e1> will add an event to your Google Calendar and This <e2>trigger</e2> fires every time you like a tweet."
+Other
+Comment:
+
+1231	"This <e1>action</e1> will post a new tweet to your Twitter account with a linked pic and This <e2>trigger</e2> fires every time a photo is saved in the folder you specify."
+Other
+Comment:
+
+1232	"This <e1>action</e1> will create a new task in the project you choose and This <e2>trigger</e2> fires every time you share any new photo on Instagram."
+Other
+Comment:
+
+1233	"This <e1>action</e1> will add an event to your Google Calendar and This <e2>trigger</e2> fires every time you press the button."
+Other
+Comment:
+
+1234	"This <e1>action</e1> will post a new tweet to your Twitter account and This <e2>trigger</e2> fires if Aura detects motion when set to the Away scene."
+Other
+Comment:
+
+1235	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> fires every time any file is saved in the folder you specify."
+Other
+Comment:
+
+1236	"This <e1>action</e1> will set your Aura to Away scene and This <e2>trigger</e2> fires every time you like a tweet."
+Other
+Comment:
+
+1237	"This <e1>action</e1> will add a new reminder to the list you specify and This <e2>trigger</e2> fires every time you like a tweet."
+Other
+Comment:
+
+1238	"This <e1>action</e1> will play music on your Android device and This <e2>trigger</e2> fires every time your washer cycle is complete."
+Other
+Comment:
+
+1239	"Cette <e1>action</e1> vous permet de changer la température de consigne de vos radiateurs connectés pour les pièces chambre et salon and This <e2>trigger</e2> fires every time a new article is added to your Saved For Later queue."
+Other
+Comment:
+
+1240	"This <e1>action</e1> will send you an HTML based email and This <e2>trigger</e2> fires every time the Twitter user you specify tweets."
+Other
+Comment:
+
+1241	"This <e1>action</e1> will update your profile picture from the image URL you specify and optionally tweet about it and This <e2>trigger</e2> fires if Aura detects motion when set to the Away scene."
+Other
+Comment:
+
+1242	"This <e1>action</e1> will create a new note in the notebook you specify and This <e2>trigger</e2> fires every time a new item is added to the feed you specify."
+Other
+Comment:
+
+1243	"This <e1>action</e1> will post a new tweet to your Twitter account with a linked pic and This <e2>trigger</e2> fires every time a new article is added to your Saved For Later queue."
+Other
+Comment:
+
+1244	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> retrieves today's current weather report within 5 minutes of the time you specify."
+Other
+Comment:
+
+1245	"This <e1>action</e1> will send you an HTML based email and This <e2>trigger</e2> fires every time you ask Alexa for a sports score."
+Other
+Comment:
+
+1246	"This <e1>action</e1> will move money from a pot of your choice to your main account and This <e2>trigger</e2> fires once an hour at :00, :15, :30, or :45 minutes past the hour."
+Other
+Comment:
+
+1247	"This <e1>action</e1> will add an item to your daily digest sent once a day at the time you specify and This <e2>trigger</e2> fires every time the Twitter user you specify tweets."
+Other
+Comment:
+
+1248	"This <e1>action</e1> will search for a track you specify and save the first matching result to Your Music on Spotify and This <e2>trigger</e2> fires every time a new photo is added to the album you specify."
+Other
+Comment:
+
+1249	"This <e1>action</e1> will post a new tweet to your Twitter account with a linked pic and This <e2>trigger</e2> fires every time you leave any voicemail at your IFTTT phone number."
+Other
+Comment:
+
+1250	"This <e1>action</e1> will download a file at a given URL and add it to OneDrive at the path you specify and This <e2>trigger</e2> fires every time you create a new public bookmark."
+Other
+Comment:
+
+1251	"This <e1>action</e1> will send you an HTML based email and This <e2>trigger</e2> fires if Aura detects motion when set to the Away scene."
+Other
+Comment:
+
+1252	"This <e1>action</e1> will preheat your oven using the hot air program with the fast preheat option and This <e2>trigger</e2> fires when you say “Ok Google” to the Google Assistant followed by a phrase like “Post a tweet saying ‘New high score."
+Other
+Comment:
+
+1253	"This <e1>action</e1> will create a new task in the project you choose and This <e2>trigger</e2> fires every time you stop a new timer in Harvest."
+Other
+Comment:
+
+1254	"This <e1>action</e1> will start a zone for a specified duration and This <e2>trigger</e2> fires every time you share any new photo on Instagram."
+Other
+Comment:
+
+1255	"This <e1>action</e1> will set your Aura to Guardian scene and This <e2>trigger</e2> fires every time you press the button."
+Other
+Comment:
+
+1256	"This <e1>action</e1> will download a file at a given URL and add it to OneDrive at the path you specify and This <e2>trigger</e2> recommends a new Applet every day at the time you specify."
+Other
+Comment:
+
+1257	"This <e1>action</e1> will download a file at a given URL and add it to Dropbox at the path you specify and This <e2>trigger</e2> fires once an hour at :00, :15, :30, or :45 minutes past the hour."
+Other
+Comment:
+
+1258	"This <e1>action</e1> will activate Standby Mode on the selected Heatmiser Thermostat and This <e2>trigger</e2> fires every time you create a new plain text status message on Facebook."
+Other
+Comment:
+
+1259	"This <e1>action</e1> will post a new tweet to your Twitter account and This <e2>trigger</e2> fires every time you submit any new note."
+Other
+Comment:
+
+1260	"This <e1>action</e1> will add an item to your daily digest sent once a day at the time you specify and This <e2>trigger</e2> fires every time a new item in the feed you specify contains a particular keyword or simple phrase."
+Other
+Comment:
+
+1261	"This <e1>action</e1> will create a card on the specified list in specified board and This <e2>trigger</e2> fires every time you add an item to your Shopping List."
+Other
+Comment:
+
+1262	"This <e1>action</e1> will set a Nest Thermostat to the temperature you specify and This <e2>trigger</e2> fires when you say “Ok Google” to the Google Assistant followed by a phrase you choose."
+Other
+Comment:
+
+1263	"This <e1>action</e1> will download a file at a given URL and add it to Dropbox at the path you specify and This <e2>trigger</e2> fires every time you stop a new timer in Harvest."
+Other
+Comment:
+
+1264	"This <e1>action</e1> will create a new task in the project you choose and This <e2>trigger</e2> fires every time you are @mentioned in a tweet."
+Other
+Comment:
+
+1265	"This <e1>action</e1> will send an email to up to twenty recipients from your Gmail account and This <e2>trigger</e2> fires every time you exit an area you specify."
+Other
+Comment:
+
+1266	"This <e1>action</e1> will create a new task in the project and section you specify and This <e2>trigger</e2> fires only on specific days of the week at the time you provide."
+Other
+Comment:
+
+1267	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> retrieves tomorrow's weather report within 5 minutes of the time you specify, depending on when forecast data is updated."
+Other
+Comment:
+
+1268	"This <e1>action</e1> will send a notification to your devices from the IFTTT app and This <e2>trigger</e2> fires every time you stop a new timer in Harvest."
+Other
+Comment:
+
+1269	"This <e1>action</e1> will set your Aura to Guardian scene and This <e2>trigger</e2> fires every time you enter an area you specify."
+Other
+Comment:
+
+1270	"This <e1>action</e1> will create a new text file at the path you specify and This <e2>trigger</e2> fires every time you create a new project on Harvest."
+Other
+Comment:
+
+1271	"This <e1>action</e1> will add an event to your Google Calendar and This <e2>trigger</e2> fires every time a new item is added to the feed you specify."
+Other
+Comment:
+
+1272	"This <e1>action</e1> will set your Aura to Guardian scene and This <e2>trigger</e2> fires when you say “Ok Google” to the Google Assistant followed by a phrase you choose."
+Other
+Comment:
+
+1273	"This <e1>action</e1> will change your lights to a specified color and This <e2>trigger</e2> fires every time you add any new contact."
+Other
+Comment:
+
+1274	"This <e1>action</e1> will upload data to Unforgettable Me and This <e2>trigger</e2> fires every time you like a video on YouTube."
+Other
+Comment:
+
+1275	"This <e1>action</e1> will add a single row to the bottom of the first worksheet of a spreadsheet you specify and This <e2>trigger</e2> fires every time the Twitter user you specify tweets."
+Other
+Comment:
+
+1276	"This <e1>action</e1> will run an American Standard Home automation and This <e2>trigger</e2> fires if Aura detects motion when set to the Away scene."
+Other
+Comment:
+
+1277	"This <e1>action</e1> will set your Aura to Away scene and This <e2>trigger</e2> monitors changes in the current weather condition."
+Other
+Comment:
+
+1278	"This <e1>action</e1> will turn the thermostat back on to the mode that was last set and This <e2>trigger</e2> fires every time your SmartThings device is switched off."
+Other
+Comment:
+
+1279	"This <e1>action</e1> will set your Aura to Away scene and This <e2>trigger</e2> fires every time a new user starts following you."
+Other
+Comment:
+
+1280	"This <e1>action</e1> will turn a WeMo Maker on for 300 milliseconds and This <e2>trigger</e2> fires every time a new item in the feed you specify contains a particular keyword or simple phrase."
+Other
+Comment:
+
