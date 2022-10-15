@@ -183,7 +183,7 @@ class pretrain_dataset(Dataset):
             model_name = 'BERT'
         elif args.model_no == 1:
             from .model.ALBERT.tokenization_albert import AlbertTokenizer as Tokenizer
-            model = args.model_size #'albert-base-v2_all'
+            model = args.model_size #'albert-base-v2'
             lower_case = False
             model_name = 'ALBERT'
         elif args.model_no == 2:

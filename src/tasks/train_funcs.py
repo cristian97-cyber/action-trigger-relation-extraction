@@ -105,7 +105,6 @@ def evaluate_results(net, test_loader, pad_id, cuda):
     for i in range(len(out_labels)):
         predicted_set = out_labels[i]
         true_set = true_labels[i]
-        print(true_set)
 
         for j in range(len(predicted_set)):
             predicted = predicted_set[j]

@@ -43,7 +43,7 @@ def main():
                                                                                 2 - BioBERT''')
     parser.add_argument("--model_size", type=str, default='bert-base-uncased', help="For BERT: 'bert-base-uncased', \
                                                                                                     'bert-large-uncased',\
-                                                                                        For ALBERT: 'albert-base-v2_all',\
+                                                                                        For ALBERT: 'albert-base-v2',\
                                                                                                     'albert-large-v2'\
                                                                                         For BioBERT: 'bert-base-uncased' (biobert_v1.1_pubmed)")
     parser.add_argument("--train", type=int, default=1, help="0: Don't train, 1: train")

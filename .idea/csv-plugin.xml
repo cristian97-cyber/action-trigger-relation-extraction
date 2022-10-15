@@ -3,6 +3,48 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="C:\Users\crist\OneDrive\Documenti\Università\Magistrale\Tesi\Backup\recipes\labelled\1. Prima versione\recipes_rel_0-10000.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\crist\OneDrive\Documenti\Università\Magistrale\Tesi\Backup\recipes\labelled\1. Prima versione\recipes_rel_10000-20000.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\recipes\blank\recipes_test.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\recipes\blank\recipes_test_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\recipes\blank\recipes_test_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\recipes\blank\recipes_test_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\recipes\labelled\recipes_test.csv">
           <value>
             <Attribute>
@@ -18,6 +60,20 @@
           </value>
         </entry>
         <entry key="\data\recipes\recipes_all.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\results\ALBERT\albert-base-v2_channel\recipes_test_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\results\ALBERT\albert-base-v2_channel\recipes_test_3.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

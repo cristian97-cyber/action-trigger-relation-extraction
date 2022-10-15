@@ -43,7 +43,7 @@ def train_and_fit(args):
                                 model_size=args.model_size)
     elif args.model_no == 1:
         from .model.ALBERT.modeling_albert import AlbertModel as Model
-        model = args.model_size #'albert-base-v2_all'
+        model = args.model_size #'albert-base-v2'
         lower_case = False
         model_name = 'ALBERT'
         net = Model.from_pretrained(model, force_download=False, \
