@@ -105,19 +105,20 @@ def evaluate_results(net, test_loader, pad_id, cuda):
     for i in range(len(out_labels)):
         predicted_set = out_labels[i]
         true_set = true_labels[i]
+        print(true_set)
 
         for j in range(len(predicted_set)):
             predicted = predicted_set[j]
             true = true_set[j]
 
             if predicted == "0" and true == "0":
-                true_positive += 1
-            elif predicted == "0" and true == "1":
-                false_positive += 1
-            elif predicted == "1" and true == "1":
                 true_negative += 1
-            elif predicted == "1" and true == "0":
+            elif predicted == "0" and true == "1":
                 false_negative += 1
+            elif predicted == "1" and true == "1":
+                true_positive += 1
+            elif predicted == "1" and true == "0":
+                false_positive += 1
 
     precision = true_positive / (true_positive + false_positive) if true_positive + false_positive > 0 else 0
     recall = true_positive / (true_positive + false_negative) if true_positive + false_negative > 0 else 0

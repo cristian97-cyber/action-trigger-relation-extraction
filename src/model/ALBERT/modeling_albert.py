@@ -37,7 +37,7 @@ ALBERT_PRETRAINED_MODEL_ARCHIVE_MAP = {
     "albert-large-v1": "https://s3.amazonaws.com/models.huggingface.co/bert/albert-large-pytorch_model.bin",
     "albert-xlarge-v1": "https://s3.amazonaws.com/models.huggingface.co/bert/albert-xlarge-pytorch_model.bin",
     "albert-xxlarge-v1": "https://s3.amazonaws.com/models.huggingface.co/bert/albert-xxlarge-pytorch_model.bin",
-    "albert-base-v2": "https://s3.amazonaws.com/models.huggingface.co/bert/albert-base-v2-pytorch_model.bin",
+    "albert-base-v2_all": "https://s3.amazonaws.com/models.huggingface.co/bert/albert-base-v2-pytorch_model.bin",
     "albert-large-v2": "https://s3.amazonaws.com/models.huggingface.co/bert/albert-large-v2-pytorch_model.bin",
     "albert-xlarge-v2": "https://s3.amazonaws.com/models.huggingface.co/bert/albert-xlarge-v2-pytorch_model.bin",
     "albert-xxlarge-v2": "https://s3.amazonaws.com/models.huggingface.co/bert/albert-xxlarge-v2-pytorch_model.bin",
@@ -461,7 +461,7 @@ class AlbertModel(AlbertPreTrainedModel):
             #self.lm_bias = nn.Parameter(torch.zeros(config.vocab_size))
         elif self.task == 'classification':
             self.n_classes_ = n_classes_
-            if self.model_size == 'albert-base-v2':
+            if self.model_size == 'albert-base-v2_all':
                 self.classification_layer = nn.Linear(1536, n_classes_)
             elif self.model_size == 'albert-large-v2':
                 self.classification_layer = nn.Linear(2048, n_classes_)
@@ -538,8 +538,8 @@ class AlbertModel(AlbertPreTrainedModel):
         from transformers import AlbertModel, AlbertTokenizer
         import torch
 
-        tokenizer = AlbertTokenizer.from_pretrained('albert-base-v2')
-        model = AlbertModel.from_pretrained('albert-base-v2')
+        tokenizer = AlbertTokenizer.from_pretrained('albert-base-v2_all')
+        model = AlbertModel.from_pretrained('albert-base-v2_all')
         input_ids = torch.tensor(tokenizer.encode("Hello, my dog is cute", add_special_tokens=True)).unsqueeze(0)  # Batch size 1
         outputs = model(input_ids)
         last_hidden_states = outputs[0]  # The last hidden-state is the first element of the output tuple
@@ -701,8 +701,8 @@ class AlbertForMaskedLM(AlbertPreTrainedModel):
         from transformers import AlbertTokenizer, AlbertForMaskedLM
         import torch
 
-        tokenizer = AlbertTokenizer.from_pretrained('albert-base-v2')
-        model = AlbertForMaskedLM.from_pretrained('albert-base-v2')
+        tokenizer = AlbertTokenizer.from_pretrained('albert-base-v2_all')
+        model = AlbertForMaskedLM.from_pretrained('albert-base-v2_all')
         input_ids = torch.tensor(tokenizer.encode("Hello, my dog is cute", add_special_tokens=True)).unsqueeze(0)  # Batch size 1
         outputs = model(input_ids, masked_lm_labels=input_ids)
         loss, prediction_scores = outputs[:2]
@@ -786,8 +786,8 @@ class AlbertForSequenceClassification(AlbertPreTrainedModel):
             from transformers import AlbertTokenizer, AlbertForSequenceClassification
             import torch
 
-            tokenizer = AlbertTokenizer.from_pretrained('albert-base-v2')
-            model = AlbertForSequenceClassification.from_pretrained('albert-base-v2')
+            tokenizer = AlbertTokenizer.from_pretrained('albert-base-v2_all')
+            model = AlbertForSequenceClassification.from_pretrained('albert-base-v2_all')
             input_ids = torch.tensor(tokenizer.encode("Hello, my dog is cute")).unsqueeze(0)  # Batch size 1
             labels = torch.tensor([1]).unsqueeze(0)  # Batch size 1
             outputs = model(input_ids, labels=labels)
@@ -883,14 +883,14 @@ class AlbertForQuestionAnswering(AlbertPreTrainedModel):
 
     Examples::
 
-        # The checkpoint albert-base-v2 is not fine-tuned for question answering. Please see the
+        # The checkpoint albert-base-v2_all is not fine-tuned for question answering. Please see the
         # examples/run_squad.py example to see how to fine-tune a model to a question answering task.
 
         from transformers import AlbertTokenizer, AlbertForQuestionAnswering
         import torch
 
-        tokenizer = AlbertTokenizer.from_pretrained('albert-base-v2')
-        model = AlbertForQuestionAnswering.from_pretrained('albert-base-v2')
+        tokenizer = AlbertTokenizer.from_pretrained('albert-base-v2_all')
+        model = AlbertForQuestionAnswering.from_pretrained('albert-base-v2_all')
         question, text = "Who was Jim Henson?", "Jim Henson was a nice puppet"
         input_dict = tokenizer.encode_plus(question, text, return_tensors='pt')
         start_scores, end_scores = model(**input_dict)

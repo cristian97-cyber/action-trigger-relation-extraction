@@ -60,7 +60,7 @@ class infer_from_trained(object):
                                          task='classification', n_classes_=self.args.num_classes)
         elif self.args.model_no == 1:
             from ..model.ALBERT.modeling_albert import AlbertModel as Model
-            model = args.model_size #'albert-base-v2'
+            model = args.model_size #'albert-base-v2_all'
             lower_case = False
             model_name = 'ALBERT'
             self.net = Model.from_pretrained(model, force_download=False, \
@@ -246,7 +246,7 @@ class FewRel(object):
         elif self.args.model_no == 1:
             from ..model.ALBERT.modeling_albert import AlbertModel as Model
             from ..model.ALBERT.tokenization_albert import AlbertTokenizer as Tokenizer
-            model = args.model_size #'albert-base-v2'
+            model = args.model_size #'albert-base-v2_all'
             lower_case = False
             model_name = 'ALBERT'
             self.net = Model.from_pretrained(model, force_download=False, \
