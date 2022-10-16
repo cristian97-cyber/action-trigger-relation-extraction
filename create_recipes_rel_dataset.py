@@ -33,7 +33,7 @@ def create_rel(action_desc, trigger_desc, relations):
 
 def main():
     parser = ArgumentParser()
-    parser.add_argument("--input_file", type=str, default="./data/recipes/recipes_all.csv", help="Input dataset")
+    parser.add_argument("--input_file", type=str, help="Input dataset")
     parser.add_argument("--output_file", type=str, help="Output dataset")
     parser.add_argument("--start_index", type=int, default=0, help="Start index from input dataset from which "
                                                                    "generate relations")
