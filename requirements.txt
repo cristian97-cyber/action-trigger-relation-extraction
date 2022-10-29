@@ -11,3 +11,5 @@ tqdm
 apex
 numpy
 sentencepiece
+stanza
+nltk

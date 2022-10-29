@@ -38,7 +38,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\data\recipes\recipes_test.csv">
+        <entry key="\data\recipes\recipes_test_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\recipes\recipes_test_1_baseline.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -52,14 +59,42 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\results\ALBERT\albert-base-v2_channel\recipes_test_2.csv">
+        <entry key="\data\recipes\recipes_test_2_baseline.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\results\ALBERT\albert-base-v2_channel\recipes_test_3.csv">
+        <entry key="\data\recipes\recipes_test_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\recipes\recipes_test_3_baseline.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\results\BASELINE\recipes_test_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\results\BASELINE\recipes_test_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\results\BASELINE\recipes_test_3.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
