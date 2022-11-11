@@ -43,25 +43,27 @@ def main():
     for i in range(len(recipes["actions"])):
         actions = str(recipes["actions"][i]).split("___")
         triggers = str(recipes["triggers"][i]).split("___")
-        found_cause_effect = False
+        found_other = False
 
         for action in actions:
+            found_other = False
+
             for trigger in triggers:
                 test = f"{action} and {trigger}"
                 current_relation = list()
 
                 try:
                     inferer.infer_sentence(test, current_relation, detect_entities=False)
-                    if current_relation[0][0] == "Cause-Effect(e1,e2)":
-                        found_cause_effect = True
+                    if current_relation[0][0] == "Other":
+                        found_other = True
                         break
                 except UnicodeEncodeError:
                     print(f"Unicode error with {test}\n")
 
-            if found_cause_effect:
+            if not found_other:
                 break
 
-        if found_cause_effect:
+        if not found_other:
             relations.append(["Cause-Effect(e1,e2)", recipes["actions"][i], recipes["triggers"][i]])
         else:
             relations.append(["Other", recipes["actions"][i], recipes["triggers"][i]])
